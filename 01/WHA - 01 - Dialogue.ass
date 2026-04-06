@@ -26,6 +26,9 @@ Style: GJM_Main_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.00,GJM_Main_1080p,,0,0,0,chapter,Part A
+Comment: 0,0:12:56.99,0:13:02.00,GJM_Main_1080p,,0,0,0,chapter,Part B
+Comment: 0,0:23:35.00,0:23:40.00,GJM_Main_1080p,,0,0,0,chapter,Preview
 Dialogue: 0,0:00:05.65,0:00:09.16,GJM_Main_1080p,Coco,0,0,0,,Is an athlete an athlete \Nfrom the day they are born?
 Dialogue: 0,0:00:09.95,0:00:12.69,GJM_Main_1080p,Coco,0,0,0,,What about an astronaut or an idol?
 Dialogue: 0,0:00:14.14,0:00:16.25,GJM_Main_1080p,Coco,0,0,0,,You can't know what you'll be at birth.
