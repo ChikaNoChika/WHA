@@ -6,7 +6,6 @@
 .ruff_cache/
 _binaries/
 _workdir/
-The.Summer.Hikaru.Died.S01.1080p.JPN.Blu-ray.AVC.LPCM.2.0-NAN0/
 
 # Git
 !.git-blame-ignore-revs
@@ -17,6 +16,9 @@ The.Summer.Hikaru.Died.S01.1080p.JPN.Blu-ray.AVC.LPCM.2.0-NAN0/
 !*.ttf
 !*.otf
 !*.ttc
+
+# Subs
+!*.ass
 
 # Scripts
 !scripts/*
