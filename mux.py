@@ -23,11 +23,19 @@ def make_mux(x):
 
     dubtitles = SubFile.from_srt(
         f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt"
-    )
+    ).merge(ts)
 
     japanese = SubFile(f"./{setup.episode}/WHA - {setup.episode} - Japanese.ass")
 
     chapters = Chapters.from_sub(full)
+
+    full = full.clean_styles().clean_garbage()
+
+    dubtitles = dubtitles.clean_styles().clean_garbage()
+
+    ts = ts.clean_styles().clean_garbage()
+
+    japanese = japanese.clean_styles().clean_garbage()
 
     fonts = full.collect_fonts(use_system_fonts=True)
 
