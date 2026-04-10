@@ -29,13 +29,20 @@ def make_mux(x):
 
     chapters = Chapters.from_sub(full)
 
-    full = full.clean_styles().clean_garbage()
-
-    dubtitles = dubtitles.clean_styles().clean_garbage()
-
-    ts = ts.clean_styles().clean_garbage()
-
-    japanese = japanese.clean_styles().clean_garbage()
+    full, dubtitles, ts, japanese = [
+        x.set_headers(
+            (ASSHeader.PlayResX, 1920),
+            (ASSHeader.PlayResY, 1080),
+            (ASSHeader.LayoutResX, 1920),
+            (ASSHeader.LayoutResY, 1080),
+            (ASSHeader.ScaledBorderAndShadow, True),
+            (ASSHeader.WrapStyle, 0),
+            (ASSHeader.YCbCr_Matrix, "TV.709"),
+        )
+        .clean_styles()
+        .clean_garbage()
+        for x in (full, dubtitles, ts, japanese)
+    ]
 
     fonts = full.collect_fonts(use_system_fonts=True)
 
