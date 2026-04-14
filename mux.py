@@ -12,7 +12,7 @@ def make_mux(x):
         audio=-1,
         subtitles=None,
         keep_attachments=False,
-        mkvmerge_args='--no-global-tags --track-name 0:"1080p H.264 WEB-DL [CR]" --track-name 1:"Japanese 2.0 AAC [CR]" --track-name 2:"English 2.0 AAC [CR]" --language 0:und --language 1:jpn --language 2:eng --default-track-flag 0:1 --default-track-flag 1:1 --default-track-flag 2:1 --original-flag 1:1',
+        mkvmerge_args='--no-global-tags --no-chapters --deterministic 1 --track-name 0:"1080p H.264 WEB-DL [CR]" --track-name 1:"Japanese 2.0 AAC [CR]" --track-name 2:"English 2.0 AAC [CR]" --language 0:und --language 1:jpn --language 2:eng --default-track-flag 0:1 --default-track-flag 1:1 --default-track-flag 2:1 --original-flag 1:1',
     )
 
     dialogue = SubFile(f"./{setup.episode}/WHA - {setup.episode} - Dialogue.ass")
@@ -53,7 +53,7 @@ def make_mux(x):
     mux(
         premux,
         full.to_track(name="Full Subtitles [Chika]", lang="eng"),
-        dubtitles.to_track(name="Dubtitles [NF]", lang="eng", default=False),
+        dubtitles.to_track(name="Dubtitles [NF]", lang="eng", default=False, forced=False),
         ts.to_track(
             name="Signs & Songs [Chika]", lang="en", default=False, forced=True
         ),
