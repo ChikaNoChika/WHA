@@ -17,20 +17,31 @@ def make_mux(x):
 
     dialogue = SubFile(f"./{setup.episode}/WHA - {setup.episode} - Dialogue.ass")
 
+    japanese = SubFile(f"./{setup.episode}/WHA - {setup.episode} - Japanese.ass")
+
     ts = SubFile(f"./{setup.episode}/WHA - {setup.episode} - Signs.ass")
 
-    full = dialogue.merge(ts).merge(f"./common/WHA - OP.ass", sync="Opening", use_actor_field=False).merge(f"./common/WHA - ED.ass", sync="Ending", use_actor_field=False)
+    op = SubFile("./common/WHA - OP.ass")
 
-    dubtitles = SubFile.from_srt(
-        f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt"
-    ).merge(ts)
+    ed = SubFile("./common/WHA - ED.ass")
 
-    japanese = SubFile(f"./{setup.episode}/WHA - {setup.episode} - Japanese.ass")
+    full = (
+        dialogue.merge(ts)
+        .merge(op, sync="Opening", use_actor_field=False)
+        .merge(ed, sync="Ending", use_actor_field=False)
+    )
+
+    dubtitles = (
+        SubFile.from_srt(f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt")
+        .merge(ts)
+        .merge(op, sync="Opening", use_actor_field=False)
+        .merge(ed, sync="Ending", use_actor_field=False)
+    )
 
     chapters = Chapters.from_sub(full)
 
+    # full, dubtitles, ts = [
     full, dubtitles, ts, japanese = [
-    #full, dubtitles, ts = [
         x.set_headers(
             (ASSHeader.PlayResX, 1920),
             (ASSHeader.PlayResY, 1080),
@@ -43,7 +54,7 @@ def make_mux(x):
         .clean_styles()
         .clean_garbage()
         for x in (full, dubtitles, ts, japanese)
-        #for x in (full, dubtitles, ts)
+        # for x in (full, dubtitles, ts)
     ]
 
     fonts = full.collect_fonts(use_system_fonts=False)
@@ -53,12 +64,17 @@ def make_mux(x):
     mux(
         premux,
         full.to_track(name="Full Subtitles [Chika]", lang="eng"),
-        dubtitles.to_track(name="Dubtitles [CR]", lang="eng", default=False, forced=False),
+        dubtitles.to_track(
+            name="Dubtitles [CR]", lang="eng", default=False, forced=False
+        ),
         ts.to_track(
             name="Signs & Songs [Chika]", lang="en", default=False, forced=True
         ),
         japanese.to_track(
-            name="Japanese Subtitles [SonicMaster]", lang="jpn", default=False, forced=False
+            name="Japanese Subtitles [SonicMaster]",
+            lang="jpn",
+            default=False,
+            forced=False,
         ),
         chapters,
         *fonts,
