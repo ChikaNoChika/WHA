@@ -1,0 +1,301 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
+Style: GJM_Main_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.00,GJM_Main_1080p,,0,0,0,chapter,Prologue
+Comment: 0,0:03:01.95,0:03:01.97,GJM_Main_1080p,,0,0,0,chapter,Opening
+Comment: 0,0:04:32.00,0:04:46.50,GJM_Main_1080p,,0,0,0,chapter,Episode
+Comment: 0,0:22:05.01,0:22:05.07,GJM_Main_1080p,,0,0,0,chapter,Ending
+Comment: 0,0:23:35.02,0:23:35.17,GJM_Main_1080p,,0,0,0,chapter,Preview
+Dialogue: 0,0:00:02.56,0:00:04.90,GJM_Main_1080p,Qifrey,0,0,0,,There are many kinds of magic,
+Dialogue: 0,0:00:04.90,0:00:08.93,GJM_Main_1080p,Qifrey,0,0,0,,but four are considered \Nparticularly important.
+Dialogue: 0,0:00:11.38,0:00:15.93,GJM_Main_1080p,Qifrey,0,0,0,,{\fad(0,413)}Granting control to that nourishing \Nforce, the source of all life—
+Dialogue: 99,0:00:15.52,0:00:18.10,GJM_Main_1080p,Qifrey,0,0,0,,{\fad(413,424)}the Sigil of Water.
+Dialogue: 0,0:00:18.89,0:00:22.27,GJM_Main_1080p,Qifrey,0,0,0,,Turning stone to sand and sand to stone,
+Dialogue: 0,0:00:22.27,0:00:26.49,GJM_Main_1080p,Qifrey,0,0,0,,enabling transformation and \Nmovement—the Sigil of Earth.
+Dialogue: 0,0:00:27.60,0:00:30.28,GJM_Main_1080p,Qifrey,0,0,0,,That which frees us \Nto visit distant realms,
+Dialogue: 0,0:00:30.28,0:00:36.20,GJM_Main_1080p,Qifrey,0,0,0,,and has fueled so much progress—\Nthe Sigil of Levitation.
+Dialogue: 0,0:00:36.72,0:00:40.44,GJM_Main_1080p,Qifrey,0,0,0,,And that which has become \Nhumanity's sword and shield—
+Dialogue: 0,0:00:41.96,0:00:44.27,GJM_Main_1080p,Qifrey,0,0,0,,{\fad(374,0)}the Sigil of Flame.
+Dialogue: 0,0:00:45.50,0:00:51.74,GJM_Main_1080p,Qifrey,0,0,0,,Witches refer to these \Nas the Primary Tetrad.
+Dialogue: 0,0:00:52.08,0:00:55.49,GJM_Main_1080p,Qifrey,0,0,0,,So, let's give them a try.
+Dialogue: 0,0:01:16.72,0:01:18.71,GJM_Main_1080p,Coco,0,0,0,,Wh-What do I do?!
+Dialogue: 0,0:01:23.17,0:01:25.23,GJM_Main_1080p,Tetia,0,0,0,,A-Are you all right?
+Dialogue: 0,0:01:25.23,0:01:27.96,GJM_Main_1080p,Coco,0,0,0,,Thank you, Tetia...
+Dialogue: 0,0:01:27.96,0:01:29.74,GJM_Main_1080p,Tetia,0,0,0,,Thank you for thanking me!
+Dialogue: 0,0:01:29.74,0:01:32.43,GJM_Main_1080p,Tetia,0,0,0,,What were you doing, anyway?
+Dialogue: 0,0:01:32.43,0:01:36.87,GJM_Main_1080p,Coco,0,0,0,,I was drawing the Pyreball spell as \Npart of my levitation magic practice.
+Dialogue: 0,0:01:37.72,0:01:41.20,GJM_Main_1080p,Qifrey,0,0,0,,The Sigil of Fire deals with formless \Nphenomena, so it can be dangerous
+Dialogue: 0,0:01:41.20,0:01:43.62,GJM_Main_1080p,Qifrey,0,0,0,,if it's not maintained at just \Nthe right size and balance.
+Dialogue: 0,0:01:43.62,0:01:45.64,GJM_Main_1080p,Qifrey,0,0,0,,Be careful when you're using it.
+Dialogue: 0,0:01:45.64,0:01:47.38,GJM_Main_1080p,Coco,0,0,0,,I will.
+Dialogue: 0,0:01:51.13,0:01:54.48,GJM_Main_1080p,Tetia,0,0,0,,I thought you'd mastered \Nlevitation magic at the Dadah Range.
+Dialogue: 0,0:01:54.48,0:01:56.74,GJM_Main_1080p,Tetia,0,0,0,,Why do you need to practice it now?
+Dialogue: 0,0:01:57.76,0:02:00.60,GJM_Main_1080p,Tetia,0,0,0,,You were out there \Nzoom-zoom-zooming around!
+Dialogue: 0,0:02:00.60,0:02:02.02,GJM_Main_1080p,Tetia,0,0,0,,Zoomie-zoomie-zoom!
+Dialogue: 0,0:02:02.69,0:02:08.00,GJM_Main_1080p,Coco,0,0,0,,I ruined the Sylph Shoes \NAgott lent me at the time.
+Dialogue: 0,0:02:08.00,0:02:10.43,GJM_Main_1080p,Coco,0,0,0,,I wanted to fix them up \Nbefore returning them.
+Dialogue: 0,0:02:11.49,0:02:14.67,GJM_Main_1080p,Coco,0,0,0,,I've finished everything except \Nthe Casting Seal on the soles,
+Dialogue: 0,0:02:14.67,0:02:17.47,GJM_Main_1080p,Coco,0,0,0,,but my lines keep coming out wobbly...
+Dialogue: 0,0:02:18.73,0:02:23.16,GJM_Main_1080p,Qifrey,0,0,0,,Maybe this isn't the right pen for you?
+Dialogue: 0,0:02:23.58,0:02:27.90,GJM_Main_1080p,Qifrey,0,0,0,,Different people need \Ndifferent weights and grips.
+Dialogue: 0,0:02:27.90,0:02:29.92,GJM_Main_1080p,Qifrey,0,0,0,,This is just one of my old ones.
+Dialogue: 0,0:02:30.79,0:02:34.68,GJM_Main_1080p,Qifrey,0,0,0,,Maybe we should have you \Npick one out for yourself?
+Dialogue: 0,0:02:38.05,0:02:40.46,GJM_Main_1080p,Tetia,0,0,0,,Coco, let's go to the magic stationer's!
+Dialogue: 0,0:02:40.46,0:02:41.75,GJM_Main_1080p,Coco,0,0,0,,Magic stationer's?
+Dialogue: 0,0:02:41.75,0:02:44.96,GJM_Main_1080p,Qifrey,0,0,0,,Yes. They stock all kinds \Nof magical goods.
+Dialogue: 0,0:02:44.96,0:02:46.71,GJM_Main_1080p,Qifrey,0,0,0,,It's an art supply store.
+Dialogue: 0,0:02:46.71,0:02:48.19,GJM_Main_1080p,Coco,0,0,0,,An art supply store?
+Dialogue: 0,0:02:48.19,0:02:49.94,GJM_Main_1080p,Qifrey,0,0,0,,Let's go to the magic stationer's.
+Dialogue: 0,0:02:49.94,0:02:52.70,GJM_Main_1080p,Coco,0,0,0,,M-Magic stationer's?!
+Dialogue: 0,0:02:52.70,0:02:54.95,GJM_Main_1080p,Coco,0,0,0,,It's like a dream!
+Dialogue: 0,0:02:54.95,0:02:56.70,GJM_Main_1080p,Qifrey,0,0,0,,Coco? Hello?
+Dialogue: 0,0:02:56.70,0:03:00.13,GJM_Main_1080p,Coco,0,0,0,,It's still sinking in. \NJust give me a moment.
+Dialogue: 0,0:04:46.76,0:04:49.17,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}That's Kalhn, Township of the Marshwoods.
+Dialogue: 0,0:04:49.17,0:04:50.58,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}It's that island on the sandbar,
+Dialogue: 0,0:04:50.58,0:04:53.78,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}and it's the closest witches' \Ntown to where we live.
+Dialogue: 0,0:05:03.85,0:05:05.70,GJM_Main_1080p,Kid A,0,0,0,,Wait for me!
+Dialogue: 0,0:05:05.70,0:05:07.95,GJM_Main_1080p,Left Woman,0,0,0,,So, the Casting Seal to \Nmake your skirt fuller...
+Dialogue: 0,0:05:07.95,0:05:10.46,GJM_Main_1080p,Right Man,0,0,0,,My wand's finally taking \Nthe ink properly, so...
+Dialogue: 0,0:05:10.46,0:05:12.46,GJM_Main_1080p,Coco,0,0,0,,So many witches...
+Dialogue: 0,0:05:13.01,0:05:19.47,GJM_Main_1080p,Qifrey,0,0,0,,To protect the city from the molewyrms \Nin the Marshwoods on the far bank,
+Dialogue: 0,0:05:19.47,0:05:22.83,GJM_Main_1080p,Qifrey,0,0,0,,the witches built part of the sandbar \Ninto an island to support a watchtower.
+Dialogue: 0,0:05:23.34,0:05:26.32,GJM_Main_1080p,Qifrey,0,0,0,,Witches started to gather here, \Nit grew into an atelier town,
+Dialogue: 0,0:05:26.32,0:05:28.72,GJM_Main_1080p,Qifrey,0,0,0,,and they haven't even \Nbuilt a bridge to it...
+Dialogue: 0,0:05:26.66,0:05:29.21,GJM_Main_1080p,Tetia,0,0,0,,{\an8}Master Qifrey, Coco's not listening!
+Dialogue: 0,0:05:29.21,0:05:30.10,GJM_Main_1080p,Agott,0,0,0,,Excuse me.
+Dialogue: 0,0:05:30.36,0:05:34.36,GJM_Main_1080p,Agott,0,0,0,,I have better things to do \Nthan play tour guide for Coco.
+Dialogue: 0,0:05:34.36,0:05:36.21,GJM_Main_1080p,Agott,0,0,0,,I'm going off on my own.
+Dialogue: 0,0:05:36.21,0:05:37.77,GJM_Main_1080p,Agott,0,0,0,,There are shops I want to visit.
+Dialogue: 0,0:05:37.77,0:05:40.37,GJM_Main_1080p,Qifrey,0,0,0,,We'll meet up at the magic stationer's!
+Dialogue: 0,0:05:42.26,0:05:45.24,GJM_Main_1080p,Qifrey,0,0,0,,How are things going with Agott?
+Dialogue: 0,0:05:46.12,0:05:47.53,GJM_Main_1080p,Coco,0,0,0,,Well...
+Dialogue: 0,0:05:47.99,0:05:50.44,GJM_Main_1080p,Coco,0,0,0,,I really wish we could be closer.
+Dialogue: 0,0:06:04.21,0:06:05.83,GJM_Main_1080p,Tetia,0,0,0,,Hey!
+Dialogue: 0,0:06:06.97,0:06:08.73,GJM_Main_1080p,Tetia,0,0,0,,We're over here!
+Dialogue: 0,0:06:15.39,0:06:18.11,GJM_Main_1080p,Coco,0,0,0,,It's like a dream!
+Dialogue: 0,0:06:35.83,0:06:37.20,GJM_Main_1080p,Tetia,0,0,0,,Coco!
+Dialogue: 0,0:06:37.20,0:06:39.76,GJM_Main_1080p,Tetia,0,0,0,,We're not supposed to get separated!
+Dialogue: 0,0:06:45.15,0:06:47.49,GJM_Main_1080p,Tetia,0,0,0,,Kalhn's just {\i1}full{\i0} of people, isn't it?
+Dialogue: 0,0:06:47.49,0:06:49.91,GJM_Main_1080p,Richeh,0,0,0,,I'm tired.
+Dialogue: 0,0:06:50.90,0:06:54.30,GJM_Main_1080p,Qifrey,0,0,0,,This is the magic stationer's, \Nthe Starry Sword.
+Dialogue: 0,0:07:18.90,0:07:21.28,GJM_Main_1080p,Coco,0,0,0,,There's a tree growing through \Nthe middle of the shop...
+Dialogue: 0,0:07:21.61,0:07:23.09,GJM_Main_1080p,Nolnoa,0,0,0,,Well, well.
+Dialogue: 0,0:07:23.44,0:07:28.84,GJM_Main_1080p,Nolnoa,0,0,0,,I don't often see a witch's apprentice \Nwonderstruck by a Silverwood Tree.
+Dialogue: 0,0:07:30.80,0:07:34.22,GJM_Main_1080p,Nolnoa,0,0,0,,You really don't know \Nsomething so elementary?
+Dialogue: 0,0:07:34.22,0:07:35.82,GJM_Main_1080p,Qifrey,0,0,0,,Don't be like that.
+Dialogue: 0,0:07:35.82,0:07:38.78,GJM_Main_1080p,Qifrey,0,0,0,,Coco hasn't been an apprentice for long.
+Dialogue: 0,0:07:40.73,0:07:43.16,GJM_Main_1080p,Nolnoa,0,0,0,,Then this is the famous...
+Dialogue: 0,0:07:45.19,0:07:47.86,GJM_Main_1080p,Nolnoa,0,0,0,,Well, that does explain it!
+Dialogue: 0,0:07:47.86,0:07:50.72,GJM_Main_1080p,Nolnoa,0,0,0,,Do forgive me, dearie.
+Dialogue: 0,0:07:50.72,0:07:54.96,GJM_Main_1080p,Nolnoa,0,0,0,,I didn't recognize you either, so... \NI guess that makes us even!
+Dialogue: 0,0:07:57.25,0:07:59.00,GJM_Main_1080p,Tetia,0,0,0,,This is Mister Nolnoa!
+Dialogue: 0,0:07:59.00,0:08:02.12,GJM_Main_1080p,Tetia,0,0,0,,He's the owner of the magic \Nstationer's, the Starry Sword!
+Dialogue: 0,0:08:02.12,0:08:03.25,GJM_Main_1080p,Nolnoa,0,0,0,,Indeed.
+Dialogue: 0,0:08:03.56,0:08:09.00,GJM_Main_1080p,Nolnoa,0,0,0,,All the Components here were made \Nby me and my grandson Tartah.
+Dialogue: 0,0:08:09.00,0:08:10.01,GJM_Main_1080p,Nolnoa,0,0,0,,All the pens,
+Dialogue: 0,0:08:10.01,0:08:11.33,GJM_Main_1080p,Nolnoa,0,0,0,,all the ink...
+Dialogue: 0,0:08:11.33,0:08:13.66,GJM_Main_1080p,Nolnoa,0,0,0,,Every last one!
+Dialogue: 0,0:08:13.66,0:08:17.19,GJM_Main_1080p,Nolnoa,0,0,0,,I can also extract Conjuring Ink \Nat whatever concentration you want.
+Dialogue: 0,0:08:17.19,0:08:18.65,GJM_Main_1080p,Coco,0,0,0,,Extract...?
+Dialogue: 0,0:08:21.82,0:08:23.16,GJM_Main_1080p,Nolnoa,0,0,0,,Coco, was it?
+Dialogue: 0,0:08:23.16,0:08:25.82,GJM_Main_1080p,Nolnoa,0,0,0,,I'll show you. Come along, now.
+Dialogue: 0,0:08:25.82,0:08:26.79,GJM_Main_1080p,Coco,0,0,0,,Yes, sir!
+Dialogue: 0,0:09:19.95,0:09:21.52,GJM_Main_1080p,Coco,0,0,0,,It turned black!
+Dialogue: 0,0:09:21.52,0:09:23.33,GJM_Main_1080p,Qifrey,0,0,0,,That's Woodcruor.
+Dialogue: 0,0:09:23.33,0:09:26.42,GJM_Main_1080p,Nolnoa,0,0,0,,The branches are a silvery white \Nwhen they're healthy,
+Dialogue: 0,0:09:26.42,0:09:28.84,GJM_Main_1080p,Nolnoa,0,0,0,,but turn black when they die.
+Dialogue: 0,0:09:29.46,0:09:34.40,GJM_Main_1080p,Nolnoa,0,0,0,,It's toxic in that state, \Nboth to the tree and to humans.
+Dialogue: 0,0:09:34.84,0:09:39.89,GJM_Main_1080p,Nolnoa,0,0,0,,But once we dissolve it in water, \Nthen strain out the excess...
+Dialogue: 0,0:09:41.64,0:09:47.09,GJM_Main_1080p,Nolnoa,0,0,0,,We've got ourselves crude Conjuring Ink, \Nthe source of all magic.
+Dialogue: 0,0:09:49.50,0:09:54.38,GJM_Main_1080p,Qifrey,0,0,0,,Regular ink is made from the soot that's \Nproduced when you burn normal wood,
+Dialogue: 0,0:09:54.38,0:09:56.03,GJM_Main_1080p,Qifrey,0,0,0,,but Conjuring Ink is different.
+Dialogue: 0,0:09:56.03,0:09:59.40,GJM_Main_1080p,Qifrey,0,0,0,,It's made from the cruor—\Nthe literal "blood"—of the tree.
+Dialogue: 0,0:09:59.96,0:10:04.98,GJM_Main_1080p,Qifrey,0,0,0,,So Silverwoods are extremely \Nimportant trees to witches.
+Dialogue: 0,0:10:05.29,0:10:06.90,GJM_Main_1080p,Nolnoa,0,0,0,,Yes indeed!
+Dialogue: 0,0:10:06.90,0:10:10.30,GJM_Main_1080p,Nolnoa,0,0,0,,For some reason, it's the only tree \Nfrom which we can extract the ink.
+Dialogue: 0,0:10:10.30,0:10:11.99,GJM_Main_1080p,Coco,0,0,0,,It sounds like an amazing tree!
+Dialogue: 0,0:10:11.99,0:10:13.20,GJM_Main_1080p,Richeh,0,0,0,,A precious tree.
+Dialogue: 0,0:10:13.20,0:10:16.43,GJM_Main_1080p,Tetia,0,0,0,,That's right! There's an \Nold legend about it, too!
+Dialogue: 0,0:10:16.90,0:10:19.56,GJM_Main_1080p,Nolnoa,0,0,0,,Yes, the legend says that long ago,
+Dialogue: 0,0:10:19.56,0:10:24.70,GJM_Main_1080p,Nolnoa,0,0,0,,a Silverwood tree fell \Nin love with a witch!
+Dialogue: 0,0:10:24.70,0:10:28.41,GJM_Main_1080p,Nolnoa,0,0,0,,It offered its blood to be ink, \Nand its branches to be wands...
+Dialogue: 0,0:10:28.41,0:10:29.15,GJM_Main_1080p,Coco,0,0,0,,Wands?
+Dialogue: 0,0:10:31.15,0:10:34.00,GJM_Main_1080p,Nolnoa,0,0,0,,So, did you come here to buy a wand?
+Dialogue: 0,0:10:34.00,0:10:34.91,GJM_Main_1080p,Coco,0,0,0,,Yes!
+Dialogue: 0,0:10:42.39,0:10:43.47,GJM_Main_1080p,Nolnoa,0,0,0,,Well, then...
+Dialogue: 0,0:10:44.46,0:10:46.18,GJM_Main_1080p,Nolnoa,0,0,0,,Go test a few out.
+Dialogue: 0,0:10:53.72,0:10:55.90,GJM_Main_1080p,Nolnoa,0,0,0,,Use this to do it.
+Dialogue: 0,0:10:58.35,0:11:02.10,GJM_Main_1080p,Nolnoa,0,0,0,,I'm sure you'll find the perfect wand.
+Dialogue: 0,0:11:06.68,0:11:08.67,GJM_Main_1080p,Tetia,0,0,0,,What should we go for?
+Dialogue: 0,0:11:08.67,0:11:11.68,GJM_Main_1080p,Tetia,0,0,0,,I like lighter wands myself!
+Dialogue: 0,0:11:11.68,0:11:13.03,GJM_Main_1080p,Coco,0,0,0,,I wonder which I should try...
+Dialogue: 0,0:11:18.64,0:11:20.31,GJM_Main_1080p,Coco,0,0,0,,W-Wait!
+Dialogue: 0,0:11:24.93,0:11:26.00,GJM_Main_1080p,Tetia,0,0,0,,Coco?
+Dialogue: 0,0:11:27.17,0:11:29.02,GJM_Main_1080p,Tetia,0,0,0,,Wh-What do we do?
+Dialogue: 0,0:11:29.02,0:11:30.00,GJM_Main_1080p,Richeh,0,0,0,,Don't know.
+Dialogue: 0,0:11:30.00,0:11:32.80,GJM_Main_1080p,Richeh,0,0,0,,But she'll get lost if we \Nleave her on her own.
+Dialogue: 0,0:11:32.80,0:11:34.36,GJM_Main_1080p,Tetia,0,0,0,,We have to find her!
+Dialogue: 0,0:11:46.51,0:11:47.31,GJM_Main_1080p,Agott,0,0,0,,What?!
+Dialogue: 0,0:11:48.12,0:11:49.35,GJM_Main_1080p,Tetia,0,0,0,,Agott!
+Dialogue: 0,0:11:49.89,0:11:51.37,GJM_Main_1080p,Agott,0,0,0,,What's going on?
+Dialogue: 0,0:11:54.32,0:11:55.66,GJM_Main_1080p,Tetia,0,0,0,,Come with us!
+Dialogue: 0,0:11:55.66,0:11:57.28,GJM_Main_1080p,Agott,0,0,0,,H-Hang on!
+Dialogue: 0,0:11:58.67,0:12:00.24,GJM_Main_1080p,Agott,0,0,0,,What's this all about?
+Dialogue: 0,0:12:28.48,0:12:30.56,GJM_Main_1080p,Agott,0,0,0,,Coco! Come back!
+Dialogue: 0,0:12:33.57,0:12:35.37,GJM_Main_1080p,Tetia,0,0,0,,Wait up, Coco!
+Dialogue: 0,0:12:51.65,0:12:53.12,GJM_Main_1080p,Agott,0,0,0,,What are you doing, Coco?
+Dialogue: 0,0:12:53.12,0:12:54.51,GJM_Main_1080p,Agott,0,0,0,,Where do you think you're going?
+Dialogue: 0,0:12:54.51,0:12:56.20,GJM_Main_1080p,Coco,0,0,0,,I... I saw that person!
+Dialogue: 0,0:12:56.20,0:12:58.58,GJM_Main_1080p,Coco,0,0,0,,The one who gave me \Nthe forbidden magic book!
+Dialogue: 0,0:12:58.58,0:12:59.76,GJM_Main_1080p,Coco,0,0,0,,That witch...
+Dialogue: 0,0:13:02.26,0:13:03.45,GJM_Main_1080p,Coco,0,0,0,,What?
+Dialogue: 0,0:13:03.45,0:13:05.77,GJM_Main_1080p,Agott,0,0,0,,What a ridiculous wild goose chase.
+Dialogue: 0,0:13:05.77,0:13:08.11,GJM_Main_1080p,Tetia,0,0,0,,But at least we stayed together!
+Dialogue: 0,0:13:08.11,0:13:10.05,GJM_Main_1080p,Tetia,0,0,0,,C'mon, let's go back to the shop!
+Dialogue: 0,0:13:10.05,0:13:10.89,GJM_Main_1080p,Richeh,0,0,0,,Hey.
+Dialogue: 0,0:13:11.72,0:13:15.90,GJM_Main_1080p,Richeh,0,0,0,,The scenery's too different here \Nfor us to just be one alley down.
+Dialogue: 0,0:13:16.23,0:13:17.78,GJM_Main_1080p,Richeh,0,0,0,,The brushbuddy's gone, too.
+Dialogue: 0,0:13:18.50,0:13:19.96,GJM_Main_1080p,Agott,0,0,0,,You may be right.
+Dialogue: 0,0:13:20.70,0:13:23.26,GJM_Main_1080p,Agott,0,0,0,,It looks completely different.
+Dialogue: 0,0:13:26.90,0:13:31.04,GJM_Main_1080p,Agott,0,0,0,,The walls and floors are made of \Na white stone you don't see in Kalhn.
+Dialogue: 0,0:13:32.17,0:13:33.54,GJM_Main_1080p,Agott,0,0,0,,Which means...
+Dialogue: 0,0:13:33.54,0:13:35.79,GJM_Main_1080p,Agott,0,0,0,,this isn't Kalhn.
+Dialogue: 0,0:13:36.92,0:13:38.75,GJM_Main_1080p,Tetia,0,0,0,,Th-That can't be true!
+Dialogue: 0,0:13:38.75,0:13:42.48,GJM_Main_1080p,Tetia,0,0,0,,We didn't pass through a Windowway, \Nand it's not like we could just teleport!
+Dialogue: 0,0:13:42.48,0:13:45.17,GJM_Main_1080p,Tetia,0,0,0,,I'll just have a look from above!
+Dialogue: 0,0:13:46.64,0:13:49.37,GJM_Main_1080p,Agott,0,0,0,,Tetia may be on the right track.
+Dialogue: 0,0:13:50.56,0:13:54.56,GJM_Main_1080p,Agott,0,0,0,,We could have been directly \Nteleported without realizing it.
+Dialogue: 0,0:13:55.66,0:13:58.65,GJM_Main_1080p,Coco,0,0,0,,But spells like that \Naren't allowed, right?
+Dialogue: 0,0:13:58.65,0:14:00.44,GJM_Main_1080p,Coco,0,0,0,,That would be...
+Dialogue: 0,0:14:00.76,0:14:02.35,GJM_Main_1080p,Richeh,0,0,0,,Forbidden magic.
+Dialogue: 0,0:14:03.20,0:14:04.90,GJM_Main_1080p,Tetia,0,0,0,,Oh, no! Oh, no! Oh, no! Oh, no!
+Dialogue: 0,0:14:04.90,0:14:06.83,GJM_Main_1080p,Tetia,0,0,0,,This is totally {\i1}not{\i0} Kalhn!
+Dialogue: 0,0:14:06.83,0:14:08.30,GJM_Main_1080p,Tetia,0,0,0,,We gotta get out of here!
+Dialogue: 0,0:14:08.30,0:14:09.46,GJM_Main_1080p,Agott,0,0,0,,Wait a minute!
+Dialogue: 0,0:14:09.46,0:14:11.20,GJM_Main_1080p,Agott,0,0,0,,Tetia, what's wrong?
+Dialogue: 0,0:14:11.20,0:14:13.27,GJM_Main_1080p,Agott,0,0,0,,Tetia, calm down!
+Dialogue: 0,0:14:13.27,0:14:14.71,GJM_Main_1080p,Agott,0,0,0,,What exactly did you see?
+Dialogue: 0,0:14:14.71,0:14:18.18,GJM_Main_1080p,Tetia,0,0,0,,It's less what I saw \Nand more what saw {\i1}me{\i0}!
+Dialogue: 0,0:14:19.80,0:14:23.02,GJM_Main_1080p,Iguin,0,0,0,,I have no business with the others, but...
+Dialogue: 0,0:14:36.77,0:14:41.04,GJM_Main_1080p,Iguin,0,0,0,,Coco, welcome to the world of magic.
+Dialogue: 0,0:14:45.14,0:14:49.03,GJM_Main_1080p,Iguin,0,0,0,,You are our hope.
+Dialogue: 0,0:14:50.80,0:14:54.41,GJM_Main_1080p,Qifrey,0,0,0,,Mr. Nolnoa, have you seen my apprentices?
+Dialogue: 0,0:14:54.41,0:14:56.02,GJM_Main_1080p,Nolnoa,0,0,0,,Oh?
+Dialogue: 0,0:14:56.02,0:14:58.29,GJM_Main_1080p,Nolnoa,0,0,0,,I assumed they got bored \Nand went for a walk.
+Dialogue: 0,0:14:58.29,0:14:59.70,GJM_Main_1080p,Qifrey,0,0,0,,How could they get bored?!
+Dialogue: 0,0:14:59.70,0:15:02.05,GJM_Main_1080p,Qifrey,0,0,0,,This is the best store in the whole town!
+Dialogue: 0,0:15:02.05,0:15:03.80,GJM_Main_1080p,Qifrey,0,0,0,,I could spend all day browsing in here!
+Dialogue: 0,0:15:03.80,0:15:06.05,GJM_Main_1080p,Nolnoa,0,0,0,,Shucks, I'm blushing!
+Dialogue: 0,0:15:06.50,0:15:11.26,GJM_Main_1080p,Qifrey,0,0,0,,They're also not the sort of girls \Nwho'd run off without thanking you.
+Dialogue: 0,0:15:11.68,0:15:13.16,GJM_Main_1080p,Qifrey,0,0,0,,Where could they be?
+Dialogue: 0,0:15:13.53,0:15:15.29,GJM_Main_1080p,Tartah,0,0,0,,I saw them.
+Dialogue: 0,0:15:15.90,0:15:19.56,GJM_Main_1080p,Tartah,0,0,0,,They ran after a strangely dressed witch.
+Dialogue: 0,0:15:19.89,0:15:23.29,GJM_Main_1080p,Tartah,0,0,0,,The witch had a mask that \Nlooked like an eyeball...
+Dialogue: 0,0:15:35.45,0:15:36.68,GJM_Main_1080p,Agott,0,0,0,,Stay as you are.
+Dialogue: 0,0:15:37.11,0:15:41.04,GJM_Main_1080p,Agott,0,0,0,,Maintain eye contact \Nand back up very slowly.
+Dialogue: 0,0:15:41.52,0:15:42.88,GJM_Main_1080p,Agott,0,0,0,,Once we're far enough,
+Dialogue: 0,0:15:42.88,0:15:45.28,GJM_Main_1080p,Agott,0,0,0,,I'll give the word, \Nthen we'll run with all our might.
+Dialogue: 0,0:15:56.58,0:15:57.90,GJM_Main_1080p,Agott,0,0,0,,Steady...
+Dialogue: 0,0:15:58.84,0:16:00.17,GJM_Main_1080p,Agott,0,0,0,,Steady...
+Dialogue: 0,0:16:06.82,0:16:08.01,GJM_Main_1080p,Agott,0,0,0,,Now!
+Dialogue: 0,0:16:23.48,0:16:25.72,GJM_Main_1080p,Agott,0,0,0,,Now's our chance! Run!
+Dialogue: 0,0:16:33.05,0:16:35.25,GJM_Main_1080p,Coco,0,0,0,,Agott, that spell was amazing!
+Dialogue: 0,0:16:35.25,0:16:36.21,GJM_Main_1080p,Coco,0,0,0,,Was it a fire spell?!
+Dialogue: 0,0:16:36.21,0:16:39.34,GJM_Main_1080p,Agott,0,0,0,,It used the Sigil of Fire surrounded \Nby the Sign of Spiraling Wind.
+Dialogue: 0,0:16:39.34,0:16:41.43,GJM_Main_1080p,Coco,0,0,0,,And you drew it that fast?!
+Dialogue: 0,0:16:41.43,0:16:42.53,GJM_Main_1080p,Agott,0,0,0,,Of course not!
+Dialogue: 0,0:16:43.10,0:16:46.11,GJM_Main_1080p,Agott,0,0,0,,You draw the spells in advance \Nin your Palm Quire,
+Dialogue: 0,0:16:46.11,0:16:49.61,GJM_Main_1080p,Agott,0,0,0,,then you can use them in a second \Njust by closing the ring!
+Dialogue: 0,0:16:49.61,0:16:52.22,GJM_Main_1080p,Coco,0,0,0,,You're amazing, Agott! So cool!
+Dialogue: 0,0:16:52.22,0:16:54.62,GJM_Main_1080p,Agott,0,0,0,,Do you even realize the danger we're in?!
+Dialogue: 0,0:16:55.25,0:16:56.62,GJM_Main_1080p,Tetia,0,0,0,,Agott!
+Dialogue: 0,0:16:56.62,0:16:59.04,GJM_Main_1080p,Tetia,0,0,0,,Awful news! We hit a dead end!
+Dialogue: 0,0:16:59.80,0:17:01.04,GJM_Main_1080p,Agott,0,0,0,,Do we take another path?
+Dialogue: 0,0:17:06.07,0:17:08.01,GJM_Main_1080p,Tetia,0,0,0,,Wh-What do we do?
+Dialogue: 0,0:17:08.01,0:17:11.02,GJM_Main_1080p,Tetia,0,0,0,,The dragon's going to \Ntrack us down and eat us...
+Dialogue: 0,0:17:14.35,0:17:16.18,GJM_Main_1080p,Tetia,0,0,0,,I don't want to die.
+Dialogue: 0,0:17:17.13,0:17:20.85,GJM_Main_1080p,Tetia,0,0,0,,I haven't left a single \Nspell to the world!
+Dialogue: 0,0:17:20.85,0:17:22.98,GJM_Main_1080p,Tetia,0,0,0,,Why did this have to—
+Dialogue: 0,0:17:32.23,0:17:34.29,GJM_Main_1080p,Agott,0,0,0,,Tetia, get a grip.
+Dialogue: 0,0:17:34.29,0:17:36.62,GJM_Main_1080p,Agott,0,0,0,,We're witch apprentices.
+Dialogue: 0,0:17:37.20,0:17:39.14,GJM_Main_1080p,Agott,0,0,0,,We'll find a way out with our magic.
+Dialogue: 0,0:17:44.11,0:17:47.21,GJM_Main_1080p,Agott,0,0,0,,I'll use a Wall Breaker spell \Nto create an escape hatch.
+Dialogue: 0,0:17:47.21,0:17:49.17,GJM_Main_1080p,Agott,0,0,0,,Richeh, Tetia, buy us time.
+Dialogue: 0,0:17:49.17,0:17:49.94,GJM_Main_1080p,Tetia,0,0,0,,Right.
+Dialogue: 0,0:17:49.94,0:17:50.97,GJM_Main_1080p,Richeh,0,0,0,,Understood.
+Dialogue: 0,0:17:50.97,0:17:52.19,GJM_Main_1080p,Tetia,0,0,0,,{\an8}There.
+Dialogue: 0,0:17:52.19,0:17:53.78,GJM_Main_1080p,Agott,0,0,0,,{\an8}Where should I draw it?
+Dialogue: 0,0:17:53.78,0:17:54.96,GJM_Main_1080p,Richeh,0,0,0,,{\an8}Around here, maybe...
+Dialogue: 0,0:17:54.96,0:17:56.64,GJM_Main_1080p,Tetia,0,0,0,,{\an8}Add the signs to this sigil...
+Dialogue: 0,0:17:56.64,0:17:58.97,GJM_Main_1080p,Tetia,0,0,0,,{\an8}Hey, Agott. Check this out!
+Dialogue: 0,0:17:58.97,0:18:03.71,GJM_Main_1080p,Tetia,0,0,0,,{\an8}I think a Casting Seal like this \Nshould buy us enough time.
+Dialogue: 0,0:17:58.97,0:18:03.05,GJM_Main_1080p,Coco,0,0,0,,{\i1}I saw it in her eyes. \NShe blames me for this.
+Dialogue: 0,0:18:03.71,0:18:06.63,GJM_Main_1080p,Agott,0,0,0,,{\an8}Yes, that should do it.
+Dialogue: 0,0:18:07.11,0:18:09.86,GJM_Main_1080p,Coco,0,0,0,,{\i1}But... she's right to.
+Dialogue: 0,0:18:17.62,0:18:18.86,GJM_Main_1080p,Tetia,0,0,0,,Please...
+Dialogue: 0,0:18:21.50,0:18:22.91,GJM_Main_1080p,Tetia,0,0,0,,Fly!
+Dialogue: 0,0:18:31.86,0:18:34.07,GJM_Main_1080p,Tetia,0,0,0,,That should buy us a little time.
+Dialogue: 0,0:18:34.07,0:18:35.86,GJM_Main_1080p,Agott,0,0,0,,Well done, Tetia.
+Dialogue: 0,0:18:35.86,0:18:36.85,GJM_Main_1080p,Richeh,0,0,0,,Nice.
+Dialogue: 0,0:18:37.30,0:18:39.60,GJM_Main_1080p,Coco,0,0,0,,Tetia's amazing.
+Dialogue: 0,0:18:47.96,0:18:49.00,GJM_Main_1080p,Coco,0,0,0,,Is that...
+Dialogue: 0,0:18:49.76,0:18:51.44,GJM_Main_1080p,Coco,0,0,0,,Hey, Agott!
+Dialogue: 0,0:18:54.50,0:18:55.83,GJM_Main_1080p,Coco,0,0,0,,I'm sorry! I...
+Dialogue: 0,0:18:56.87,0:18:58.55,GJM_Main_1080p,Agott,0,0,0,,What is wrong with you?!
+Dialogue: 0,0:18:58.55,0:19:00.24,GJM_Main_1080p,Agott,0,0,0,,You don't touch someone \Nwhile they're drawing!
+Dialogue: 0,0:19:00.24,0:19:02.25,GJM_Main_1080p,Coco,0,0,0,,I'm sorry! I didn't do it on purpose!
+Dialogue: 0,0:19:02.25,0:19:04.12,GJM_Main_1080p,Agott,0,0,0,,Didn't do it on purpose?!
+Dialogue: 0,0:19:04.12,0:19:05.50,GJM_Main_1080p,Agott,0,0,0,,Yes, I'm sure you didn't!
+Dialogue: 0,0:19:05.50,0:19:10.30,GJM_Main_1080p,Agott,0,0,0,,Turning your mother into stone, \Nputting us in danger...
+Dialogue: 0,0:19:10.30,0:19:12.76,GJM_Main_1080p,Agott,0,0,0,,You didn't mean to do \Nany of it, did you?!
+Dialogue: 0,0:19:12.76,0:19:15.01,GJM_Main_1080p,Agott,0,0,0,,But it's all still your fault, Coco!
+Dialogue: 0,0:19:15.36,0:19:17.73,GJM_Main_1080p,Agott,0,0,0,,Get it through your head \Nhow ignorant you are,
+Dialogue: 0,0:19:17.73,0:19:19.51,GJM_Main_1080p,Agott,0,0,0,,and just stop doing anything!
+Dialogue: 0,0:19:23.64,0:19:25.52,GJM_Main_1080p,Tetia,0,0,0,,Wh-What do we do?
+Dialogue: 0,0:19:26.04,0:19:28.43,GJM_Main_1080p,Agott,0,0,0,,I don't have time to start over.
+Dialogue: 0,0:19:28.43,0:19:30.62,GJM_Main_1080p,Agott,0,0,0,,We'll have to go back and find another—
+Dialogue: 0,0:19:30.62,0:19:31.69,GJM_Main_1080p,Richeh,0,0,0,,I've got it.
+Dialogue: 0,0:19:40.94,0:19:43.29,GJM_Main_1080p,Agott,0,0,0,,Amazing. Great work, Richeh.
+Dialogue: 0,0:19:43.29,0:19:45.72,GJM_Main_1080p,Agott,0,0,0,,Let's put this dead end behind us.
+Dialogue: 0,0:19:49.75,0:19:51.92,GJM_Main_1080p,Agott,0,0,0,,I meant this part of the maze...
+Dialogue: 0,0:19:53.22,0:19:57.13,GJM_Main_1080p,Agott,0,0,0,,though you can take it \Neither way you want to.
+Dialogue: 0,0:20:01.40,0:20:02.58,GJM_Main_1080p,Agott,0,0,0,,Tetia.
+Dialogue: 0,0:20:27.44,0:20:32.26,GJM_Main_1080p,Coco,0,0,0,,{\i1}Master Qifrey, what should I do?
+Dialogue: 0,0:20:38.54,0:20:40.09,GJM_Main_1080p,Nolnoa,0,0,0,,Qifrey!
+Dialogue: 0,0:20:40.40,0:20:42.19,GJM_Main_1080p,Nolnoa,0,0,0,,Any sign of the girls?
+Dialogue: 0,0:20:44.18,0:20:47.73,GJM_Main_1080p,Qifrey,0,0,0,,No, they're not anywhere \Noutside, at least.
+Dialogue: 0,0:20:48.39,0:20:49.73,GJM_Main_1080p,Qifrey,0,0,0,,I didn't expect...
+Dialogue: 0,0:20:50.03,0:20:53.36,GJM_Main_1080p,Qifrey,0,0,0,,that the Brimmed Caps would \Nmake contact themselves.
+Dialogue: 0,0:20:53.36,0:20:54.36,GJM_Main_1080p,Coco,0,0,0,,Wait!
+Dialogue: 0,0:20:58.16,0:21:00.25,GJM_Main_1080p,Tartah,0,0,0,,That was one of the Brimmed Caps?
+Dialogue: 0,0:21:00.25,0:21:03.57,GJM_Main_1080p,Nolnoa,0,0,0,,I wouldn't have dreamed \None would come here!
+Dialogue: 0,0:21:05.34,0:21:09.53,GJM_Main_1080p,Qifrey,0,0,0,,A dangerous faction that \Nwears hats from a bygone era
+Dialogue: 0,0:21:09.53,0:21:12.19,GJM_Main_1080p,Qifrey,0,0,0,,and hides their faces behind masks.
+Dialogue: 0,0:21:13.83,0:21:16.84,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}I thought Coco would afford us a clue,
+Dialogue: 0,0:21:17.17,0:21:19.72,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}but I didn't expect them to come to her.
+Dialogue: 0,0:21:21.86,0:21:24.98,GJM_Main_1080p,Qifrey,0,0,0,,Tartah, do you remember anything else?
+Dialogue: 0,0:21:24.98,0:21:25.97,GJM_Main_1080p,Qifrey,0,0,0,,Anything at all?
+Dialogue: 0,0:21:26.73,0:21:29.17,GJM_Main_1080p,Tartah,0,0,0,,Um, I'm really sorry.
+Dialogue: 0,0:21:29.17,0:21:30.73,GJM_Main_1080p,Tartah,0,0,0,,I don't remember much.
+Dialogue: 0,0:21:31.05,0:21:32.10,GJM_Main_1080p,Qifrey,0,0,0,,I see.
+Dialogue: 0,0:21:33.48,0:21:34.98,GJM_Main_1080p,Qifrey,0,0,0,,Wait, you're...
+Dialogue: 0,0:21:41.38,0:21:43.49,GJM_Main_1080p,Qifrey,0,0,0,,You're the brushbuddy \Nthat Coco brought back.
+Dialogue: 0,0:21:43.90,0:21:45.79,GJM_Main_1080p,Qifrey,0,0,0,,Were you with them?
+Dialogue: 0,0:21:47.25,0:21:48.49,GJM_Main_1080p,Qifrey,0,0,0,,Do you know where they went?
+Dialogue: 0,0:21:57.96,0:21:59.34,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}It'll be getting dark soon.
+Dialogue: 0,0:22:00.69,0:22:02.16,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}Please, everyone...
+Dialogue: 0,0:22:02.82,0:22:04.17,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}Be safe!
