@@ -25,23 +25,31 @@ def make_mux(x):
 
     ed = SubFile("./common/WHA - ED.ass")
 
-    full = (
-        dialogue.merge(ts)
-        .merge(op, sync="Opening", sync2="OP", use_actor_field=False)
-        .merge(ed, sync="Ending", sync2="ED", use_actor_field=False)
-    )
-
-    dubtitles = (
-        SubFile.from_srt(f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt")
-        .merge(ts)
-        # .merge(op, sync="Opening", sync2="OP", use_actor_field=False)
-        # .merge(ed, sync="Ending", sync2="ED", use_actor_field=False) # TODO: Fix this
-    )
+    if x == 5:
+        full = dialogue.merge(ts)
+        dubtitles = SubFile.from_srt(
+            f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt"
+        ).merge(ts)
+    else:
+        signssongs = (
+            dialogue.merge(ts)
+            .merge(op, sync="Opening", sync2="OP", use_actor_field=False)
+            .merge(ed, sync="Ending", sync2="ED", use_actor_field=False)
+        )
+        full = dialogue.merge(signssongs)
+        dubtitles = SubFile.from_srt(
+            f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt"
+        ).merge(signssongs)
 
     chapters = Chapters.from_sub(full)
 
     # full, dubtitles, ts = [
-    full, dubtitles, ts, japanese = [
+    (
+        full,
+        dubtitles,
+        ts,
+        japanese,
+    ) = [  # TODO: I need to find a better way then long ass if/else chains to get episode specific changes in
         x.set_headers(
             (ASSHeader.PlayResX, 1920),
             (ASSHeader.PlayResY, 1080),
@@ -61,25 +69,29 @@ def make_mux(x):
 
     jp_fonts = japanese.collect_fonts(use_system_fonts=False)
 
-    mux(
-        premux,
-        full.to_track(name="Full Subtitles [Chika]", lang="eng"),
-        dubtitles.to_track(
-            name="Dubtitles [CR]", lang="eng", default=False, forced=False
-        ),
-        ts.to_track(
-            name="Signs & Songs [Chika]", lang="en", default=False, forced=True
-        ),
-        japanese.to_track(
-            name="Japanese Subtitles [SonicMaster]",
-            lang="jpn",
-            default=False,
-            forced=False,
-        ),
-        chapters,
-        *fonts,
-        *jp_fonts,
-    )
+    if x != 5:
+        mux(
+            premux,
+            full.to_track(name="Full Subtitles [Chika]", lang="eng"),
+            dubtitles.to_track(
+                name="Dubtitles [CR]", lang="eng", default=False, forced=False
+            ),
+            ts.to_track(
+                name="Signs & Songs [Chika]" if x != 5 else "Signs & Nothing [Chika]",
+                lang="en",
+                default=False,
+                forced=True,
+            ),
+            japanese.to_track(
+                name="Japanese Subtitles [SonicMaster]",
+                lang="jpn",
+                default=False,
+                forced=False,
+            ),
+            chapters,
+            *fonts,
+            *jp_fonts,
+        )
 
 
 ep = int(input("Enter episode number: "))
