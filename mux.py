@@ -33,13 +33,15 @@ def make_mux(x):
     else:
         signssongs = (
             dialogue.merge(ts)
-            .merge(op, sync="Opening", sync2="OP", use_actor_field=False) # TODO: This is broken
+            .merge(
+                op, sync="Opening", sync2="OP", use_actor_field=False
+            )  # TODO: This is broken
             .merge(ed, sync="Ending", sync2="ED", use_actor_field=False)
         )
         full = dialogue.merge(signssongs)
         dubtitles = SubFile.from_srt(
             f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt"
-        ).merge(signssongs) # TODO: This is broken
+        ).merge(signssongs)  # TODO: This is broken
 
     chapters = Chapters.from_sub(full)
 
@@ -69,29 +71,28 @@ def make_mux(x):
 
     jp_fonts = japanese.collect_fonts(use_system_fonts=False)
 
-    if x != 5:
-        mux(
-            premux,
-            full.to_track(name="Full Subtitles [Chika]", lang="eng"),
-            dubtitles.to_track(
-                name="Dubtitles [CR]", lang="eng", default=False, forced=False
-            ),
-            ts.to_track(
-                name="Signs & Songs [Chika]" if x != 5 else "Signs & Nothing [Chika]",
-                lang="en",
-                default=False,
-                forced=True,
-            ),
-            japanese.to_track(
-                name="Japanese Subtitles [SonicMaster]",
-                lang="jpn",
-                default=False,
-                forced=False,
-            ),
-            chapters,
-            *fonts,
-            *jp_fonts,
-        )
+    mux(
+        premux,
+        full.to_track(name="Full Subtitles [Chika]", lang="eng"),
+        dubtitles.to_track(
+            name="Dubtitles [CR]", lang="eng", default=False, forced=False
+        ),
+        ts.to_track(
+            name="Signs & Songs [Chika]" if x != 5 else "Signs & Nothing [Chika]",
+            lang="en",
+            default=False,
+            forced=True,
+        ),
+        japanese.to_track(
+            name="Japanese Subtitles [SonicMaster]",
+            lang="jpn",
+            default=False,
+            forced=False,
+        ),
+        chapters,
+        *fonts,
+        *jp_fonts,
+    )
 
 
 ep = int(input("Enter episode number: "))
