@@ -1,392 +1,384 @@
 ﻿[Script Info]
-Title: Crunchyroll Subtitles
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.709
-PlayResX: 640
-PlayResY: 360
-LayoutResX: 640
-LayoutResY: 360
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: Main,Gandhi Sans,24,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,1.2,0.5,2,10,10,20,1
-Style: Italics,Gandhi Sans,24,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,-1,0,0,100,100,0,0,1,1.2,0.5,2,10,10,20,1
-Style: Flashback,Gandhi Sans,24,&H00FFFFFF,&H000000FF,&H00500000,&HA0500000,-1,0,0,0,100,100,0,0,1,1.2,0.5,2,10,10,20,1
-Style: Flashback_Italics,Gandhi Sans,24,&H00FFFFFF,&H000000FF,&H00500000,&HA0500000,-1,-1,0,0,100,100,0,0,1,1.2,0.5,2,10,10,20,1
-Style: Main - Top,Gandhi Sans,24,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,1.2,0.5,8,10,10,20,1
-Style: Sign_Basic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,18,1
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: GJM_Main_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
+Style: GJM_Overlap_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00743E15,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:22.31,0:00:23.91,Main,Tetia,0,0,0,,Isn't this...
-Dialogue: 0,0:00:23.91,0:00:27.34,Main - Top,Agott,0,0,0,,Yes, it's the hole Richeh opened again.
-Dialogue: 0,0:00:25.59,0:00:30.93,Sign_Basic,sign,0,0,0,,{\fad(700,1000)\an1\fs18\fnTimes New Roman\shad0\bord4\b1\pos(458,310)\fscx95}The{\be2\bord1\3c&HFFFFFF&\c&H000000&\3a&H66&} Dragon's Labyrinth
-Dialogue: 0,0:00:27.34,0:00:28.90,Main - Top,Richeh,0,0,0,,How many times is that now?
-Dialogue: 0,0:00:28.90,0:00:31.14,Main - Top,Tetia,0,0,0,,I've lost count.
-Dialogue: 0,0:00:31.14,0:00:34.89,Main,Agott,0,0,0,,Anyway, let's find \Nsomewhere covered to hide.
-Dialogue: 0,0:00:34.89,0:00:37.10,Main,Agott,0,0,0,,I think it's getting colder in here.
-Dialogue: 0,0:00:53.29,0:00:55.05,Main,Coco,0,0,0,,T-Tetia.
-Dialogue: 0,0:00:57.65,0:01:00.08,Main,Coco,0,0,0,,You... dropped this.
-Dialogue: 0,0:01:05.05,0:01:06.55,Main,Tetia,0,0,0,,Thanks.
-Dialogue: 0,0:01:08.56,0:01:10.98,Main,Coco,0,0,0,,Um... are you okay?
-Dialogue: 0,0:01:13.96,0:01:15.89,Main,Coco,0,0,0,,Yeah, I guess not...
-Dialogue: 0,0:01:16.33,0:01:18.68,Main,Coco,0,0,0,,I'm sorry. This is all my fault.
-Dialogue: 0,0:01:21.38,0:01:22.44,Main,Coco,0,0,0,,And, um...
-Dialogue: 0,0:01:22.44,0:01:25.39,Main,Coco,0,0,0,,Y-You'll be cold without a cloak, \Nso wear mine instead!
-Dialogue: 0,0:01:25.39,0:01:27.07,Main,Coco,0,0,0,,I'll just snuggle up close!
-Dialogue: 0,0:01:33.25,0:01:34.56,Main,Tetia,0,0,0,,Coco?
-Dialogue: 0,0:01:36.06,0:01:40.15,Main,Coco,0,0,0,,I feel really safe when I have it on.
-Dialogue: 0,0:01:42.11,0:01:46.38,Main,Coco,0,0,0,,When I'm wearing my cloak, \Nnobody can see that I'm shaking with fear.
-Dialogue: 0,0:01:46.38,0:01:51.14,Main,Coco,0,0,0,,Knowing that I still look like a witch \Non the outside helps me be brave.
-Dialogue: 0,0:01:51.14,0:01:54.41,Main,Coco,0,0,0,,So I want you to wear it right now.
-Dialogue: 0,0:01:54.41,0:01:57.76,Main,Coco,0,0,0,,You'll be a lot more help than I've been.
-Dialogue: 0,0:02:01.35,0:02:02.48,Main,Coco,0,0,0,,What the?!
-Dialogue: 0,0:02:05.04,0:02:06.61,Main,Agott,0,0,0,,What are they doing?
-Dialogue: 0,0:02:09.64,0:02:11.12,Main,Coco,0,0,0,,It's warm.
-Dialogue: 0,0:02:11.51,0:02:12.53,Main,Coco,0,0,0,,A cloud?
-Dialogue: 0,0:02:13.11,0:02:16.78,Main,Tetia,0,0,0,,I'm sorry I looked at you \Nlike this was your fault!
-Dialogue: 0,0:02:21.43,0:02:23.98,Main,Coco,0,0,0,,It's fine. It {\i1}is{\i0} my fault, anyway.
-Dialogue: 0,0:02:23.98,0:02:27.25,Main,Coco,0,0,0,,And it's not like you actually said it...
-Dialogue: 0,0:02:28.00,0:02:30.27,Main,Tetia,0,0,0,,If I acted like it, it's no better.
-Dialogue: 0,0:02:30.27,0:02:34.63,Main,Tetia,0,0,0,,I took my fear out on you.
-Dialogue: 0,0:02:34.63,0:02:39.15,Main,Tetia,0,0,0,,I've been doing this longer than you. \NI'm supposed to protect you.
-Dialogue: 0,0:02:39.67,0:02:40.73,Main,Coco,0,0,0,,Tetia...
-Dialogue: 0,0:02:42.89,0:02:44.42,Main,Coco,0,0,0,,But you {\i1}are{\i0} protecting me!
-Dialogue: 0,0:02:44.42,0:02:46.34,Main,Coco,0,0,0,,Look how warm this spell is!
-Dialogue: 0,0:02:46.34,0:02:48.29,Main,Coco,0,0,0,,I feel super relaxed even \Nthough we're in danger!
-Dialogue: 0,0:02:48.29,0:02:50.21,Main,Coco,0,0,0,,It's amazing! Magic is so powerful!
-Dialogue: 0,0:02:51.96,0:02:55.40,Main,Tetia,0,0,0,,It's my very own creation.
-Dialogue: 0,0:02:55.79,0:02:59.81,Main,Tetia,0,0,0,,When I was a little kid, \NI dreamed about napping on a cloud.
-Dialogue: 0,0:02:59.81,0:03:01.91,Main,Tetia,0,0,0,,So I've been trying out different things.
-Dialogue: 0,0:03:01.91,0:03:04.41,Main,Tetia,0,0,0,,It's not finished yet, though.
-Dialogue: 0,0:03:04.41,0:03:07.58,Main,Tetia,0,0,0,,Once it is, I'd like to \Nsubmit it for approval
-Dialogue: 0,0:03:07.58,0:03:10.29,Main,Tetia,0,0,0,,as a general-use spell \Nfor everyone to try.
-Dialogue: 0,0:03:10.29,0:03:13.02,Main,Tetia,0,0,0,,It might not be the most \Nuseful spell out there,
-Dialogue: 0,0:03:13.02,0:03:15.80,Main,Tetia,0,0,0,,but it's my dream, \Nand that means a lot to me.
-Dialogue: 0,0:03:16.12,0:03:18.50,Main,Tetia,0,0,0,,So you should wear your own cloak.
-Dialogue: 0,0:03:18.50,0:03:21.18,Main,Tetia,0,0,0,,Let's not take off our novice cloaks \Nuntil we're back home safe
-Dialogue: 0,0:03:21.18,0:03:24.31,Main,Tetia,0,0,0,,and we all become real witches together.
-Dialogue: 0,0:03:24.67,0:03:25.64,Main,Tetia,0,0,0,,Okay?
-Dialogue: 0,0:03:29.21,0:03:30.19,Main,Coco,0,0,0,,Yeah!
-Dialogue: 0,0:03:33.85,0:03:34.93,Main,Agott,0,0,0,,I heard all that.
-Dialogue: 0,0:03:35.34,0:03:36.43,Main,Agott,0,0,0,,If you want to lie on top of this,
-Dialogue: 0,0:03:36.43,0:03:39.13,Main,Agott,0,0,0,,it needs to be made of \Na substance with more mass.
-Dialogue: 0,0:03:39.13,0:03:41.19,Main,Richeh,0,0,0,,Too cold outside.
-Dialogue: 0,0:03:41.19,0:03:42.52,Main,Richeh,0,0,0,,Richeh's coming in.
-Dialogue: 0,0:03:42.52,0:03:44.29,Main,Agott,0,0,0,,If you want people \Nto be able to fly on it,
-Dialogue: 0,0:03:44.29,0:03:46.91,Main,Agott,0,0,0,,you'll need a cloud-like \Nmaterial to substitute.
-Dialogue: 0,0:03:46.91,0:03:47.78,Main,Agott,0,0,0,,Like cotton.
-Dialogue: 0,0:03:47.78,0:03:50.20,Main,Tetia,0,0,0,,But then it would just be \Na normal mattress!
-Dialogue: 0,0:03:50.20,0:03:54.21,Main,Agott,0,0,0,,It's fine to talk about dreams, \Nbut how about reality?
-Dialogue: 0,0:03:54.77,0:03:57.84,Main,Agott,0,0,0,,How are we going to get out of here?
-Dialogue: 0,0:03:58.58,0:04:01.76,Main,Agott,0,0,0,,This whole area seems \Nto be under a spell,
-Dialogue: 0,0:04:01.76,0:04:05.47,Main,Agott,0,0,0,,which is why we keep ending \Nup at the same place.
-Dialogue: 0,0:04:05.76,0:04:10.73,Main,Agott,0,0,0,,Any kind of magic—even the forbidden \Nkind—needs a Casting Seal to work.
-Dialogue: 0,0:04:11.14,0:04:13.11,Main,Agott,0,0,0,,We need to find out where it is and—
-Dialogue: 0,0:04:13.11,0:04:14.12,Main,Coco,0,0,0,,Excuse me.
-Dialogue: 0,0:04:15.96,0:04:20.51,Main,Coco,0,0,0,,I think I saw the Casting Seal... maybe?
-Dialogue: 0,0:04:21.60,0:04:24.37,Main,Agott,0,0,0,,You're right. It's up there.
-Dialogue: 0,0:04:26.09,0:04:28.00,Main,Richeh,0,0,0,,Yeah. A Casting Seal.
-Dialogue: 0,0:04:28.00,0:04:32.19,Main,Tetia,0,0,0,,Huh? Does that dragon \Nlook bigger than before?
-Dialogue: 0,0:04:32.19,0:04:36.17,Main,Richeh,0,0,0,,Or we're getting smaller \Nwith the rest of the space.
-Dialogue: 0,0:04:36.84,0:04:42.01,Main,Agott,0,0,0,,Either way, if the dragon is protecting \Nthe Casting Seal, we'll have to beat it.
-Dialogue: 0,0:04:42.01,0:04:44.01,Main,Agott,0,0,0,,I'm thinking fire magic—
-Dialogue: 0,0:04:42.87,0:04:44.01,Main,Coco,0,0,0,,Um...
-Dialogue: 0,0:04:44.95,0:04:49.08,Main,Coco,0,0,0,,I don't think your fire spell \Ndid much to it before.
-Dialogue: 0,0:04:49.75,0:04:50.47,Main,Agott,0,0,0,,Pardon?
-Dialogue: 0,0:04:50.47,0:04:52.19,Main,Coco,0,0,0,,Um, I mean...
-Dialogue: 0,0:04:52.69,0:04:55.95,Main,Coco,0,0,0,,You slowed it down, \Nbut I don't think you actually hurt it.
-Dialogue: 0,0:04:56.36,0:05:00.57,Main,Coco,0,0,0,,So... I don't think fire \Nis the way to beat it.
-Dialogue: 0,0:05:02.11,0:05:04.73,Main,Agott,0,0,0,,What do you propose, then?
-Dialogue: 0,0:05:04.73,0:05:05.95,Main,Coco,0,0,0,,We don't beat it.
-Dialogue: 0,0:05:11.96,0:05:15.05,Main,Agott,0,0,0,,Are you still mad about what \NI said before or something?!
-Dialogue: 0,0:05:15.05,0:05:16.21,Main,Coco,0,0,0,,No, no!
-Dialogue: 0,0:05:16.21,0:05:19.29,Main,Coco,0,0,0,,You and Tetia just gave me an idea...
-Dialogue: 0,0:05:21.16,0:05:22.92,Main,Coco,0,0,0,,I have a plan.
-Dialogue: 0,0:05:22.92,0:05:25.35,Main,Coco,0,0,0,,I don't know if it'll work, but...
-Dialogue: 0,0:05:25.35,0:05:26.74,Main,Coco,0,0,0,,I'd like to try it.
-Dialogue: 0,0:05:34.51,0:05:35.86,Main,Tetia,0,0,0,,You mean...
-Dialogue: 0,0:05:35.86,0:05:37.40,Main,Coco,0,0,0,,Yes!
-Dialogue: 0,0:05:37.40,0:05:41.28,Main,Coco,0,0,0,,The plan to make Tetia's dream come true!
-Dialogue: 0,0:05:42.34,0:05:43.61,Main,Agott,0,0,0,,What are you talking about?
-Dialogue: 0,0:05:43.61,0:05:46.63,Main,Coco,0,0,0,,Well, Tetia's cloud made \Nus feel warm and safe
-Dialogue: 0,0:05:46.63,0:05:48.83,Main,Coco,0,0,0,,in this bitter, cold place, right?
-Dialogue: 0,0:05:48.83,0:05:52.46,Main,Coco,0,0,0,,So what if we make a \Ncloud bed for the dragon,
-Dialogue: 0,0:05:52.46,0:05:56.38,Main,Coco,0,0,0,,so it would stay there \Ninstead of attacking us?
-Dialogue: 0,0:05:56.38,0:05:58.95,Main,Agott,0,0,0,,I doubt it's going to go that—
-Dialogue: 0,0:05:57.61,0:05:58.95,Main,Richeh,0,0,0,,True.
-Dialogue: 0,0:05:59.42,0:06:02.41,Main,Richeh,0,0,0,,All are helpless before \Nthe power of a warm bed!
-Dialogue: 0,0:06:02.41,0:06:04.43,Main,Richeh,0,0,0,,Even dragons, probably!
-Dialogue: 0,0:06:04.43,0:06:06.01,Main,Tetia,0,0,0,,Yeah, that's right!
-Dialogue: 0,0:06:06.01,0:06:09.04,Main,Agott,0,0,0,,But... that's...
-Dialogue: 0,0:06:10.91,0:06:13.98,Main,Agott,0,0,0,,Look, give me a minute \Nto work through this.
-Dialogue: 0,0:06:13.98,0:06:17.83,Main,Agott,0,0,0,,Humans certainly find warm \Nbeds irresistible, but...
-Dialogue: 0,0:06:19.69,0:06:22.53,Main,Tetia,0,0,0,,Coco? Is something wrong?
-Dialogue: 0,0:06:22.53,0:06:24.97,Main,Coco,0,0,0,,No, it's nothing!
-Dialogue: 0,0:06:24.97,0:06:28.09,Main,Coco,0,0,0,,I was just wondering \Nif the dragon was okay.
-Dialogue: 0,0:06:29.78,0:06:31.00,Main,Tetia,0,0,0,,The dragon?
-Dialogue: 0,0:06:31.00,0:06:33.67,Main,Coco,0,0,0,,When we ran away before,
-Dialogue: 0,0:06:33.67,0:06:37.69,Main,Coco,0,0,0,,it slammed hard into \Na pillar, nose-first.
-Dialogue: 0,0:06:37.69,0:06:40.93,Main,Coco,0,0,0,,At the time, I was too scared \Nto think twice about it,
-Dialogue: 0,0:06:40.93,0:06:44.72,Main,Coco,0,0,0,,but I'm thinking it was \Nprobably really painful.
-Dialogue: 0,0:06:45.80,0:06:49.93,Main,Coco,0,0,0,,And that's why, well...
-Dialogue: 0,0:06:50.35,0:06:53.98,Main,Coco,0,0,0,,That's why I thought this \Nplan was worth trying!
-Dialogue: 0,0:06:57.23,0:07:01.73,Main,Coco,0,0,0,,Master said that the spells \Nthat aren't forbidden
-Dialogue: 0,0:07:01.73,0:07:04.65,Main,Coco,0,0,0,,are the ones that bring happiness to all.
-Dialogue: 0,0:07:05.22,0:07:09.19,Main,Coco,0,0,0,,So I want to show the dragon \Nsome kinder magic.
-Dialogue: 0,0:07:09.99,0:07:14.01,Main,Coco,0,0,0,,If this works, no one has to get hurt.
-Dialogue: 0,0:07:14.71,0:07:17.95,Main,Coco,0,0,0,,Not us, and not the dragon, either!
-Dialogue: 0,0:07:21.77,0:07:23.01,Main,Tetia,0,0,0,,Good point!
-Dialogue: 0,0:07:23.01,0:07:28.84,Main,Tetia,0,0,0,,And if Agott helps us, \Nit'll probably work even better!
-Dialogue: 0,0:07:28.84,0:07:31.10,Main,Richeh,0,0,0,,You're acting like you have ideas.
-Dialogue: 0,0:07:32.86,0:07:36.27,Main,Agott,0,0,0,,Well... maybe I do.
-Dialogue: 0,0:07:36.27,0:07:38.85,Main,Tetia,0,0,0,,Then let's do this together.
-Dialogue: 0,0:07:40.34,0:07:44.11,Main,Tetia,0,0,0,,You're the best at drawing \Nseals out of all of us.
-Dialogue: 0,0:07:44.11,0:07:46.99,Main,Tetia,0,0,0,,We'll have a much better chance \Nif you're on the team.
-Dialogue: 0,0:07:57.38,0:07:58.38,Main,Agott,0,0,0,,Well...
-Dialogue: 0,0:08:00.36,0:08:01.75,Main,Agott,0,0,0,,Fine.
-Dialogue: 0,0:08:01.75,0:08:03.38,Main,Coco,0,0,0,,Yay!
-Dialogue: 0,0:08:03.80,0:08:05.21,Main,Agott,0,0,0,,Hey, watch it!
-Dialogue: 0,0:08:08.41,0:08:10.12,Main,Coco,0,0,0,,Thanks, Agott!
-Dialogue: 0,0:08:10.12,0:08:11.45,Main,Agott,0,0,0,,Forget about me!
-Dialogue: 0,0:08:11.45,0:08:13.51,Main,Agott,0,0,0,,Let's talk strategy!
-Dialogue: 0,0:08:13.51,0:08:14.60,Main,Tetia,0,0,0,,Okay!
-Dialogue: 0,0:08:17.57,0:08:20.02,Main,Agott,0,0,0,,You want to be able to lie on it, right?
-Dialogue: 0,0:08:20.02,0:08:23.80,Main,Tetia,0,0,0,,Yes, I want it to be like \Na nice, fluffy bed!
-Dialogue: 0,0:08:23.80,0:08:28.37,Main,Agott,0,0,0,,Something as fluffy as a cloud, \Nbut with proper substance...
-Dialogue: 0,0:08:28.37,0:08:30.51,Main,Richeh,0,0,0,,Something we can find here...
-Dialogue: 0,0:08:30.51,0:08:34.04,Main,Coco,0,0,0,,...and that could withstand \Na dragon's weight.
-Dialogue: 0,0:08:35.20,0:08:36.76,Main,Tetia,0,0,0,,Shredded paper!
-Dialogue: 0,0:08:36.76,0:08:39.62,Main,Agott,0,0,0,,We could tear up all four of our \NQuires and it wouldn't be enough.
-Dialogue: 0,0:08:39.62,0:08:40.28,Main,Coco,0,0,0,,Cloth!
-Dialogue: 0,0:08:40.28,0:08:41.12,Main,Richeh,0,0,0,,Hair.
-Dialogue: 0,0:08:41.12,0:08:42.53,Main,Agott,0,0,0,,Not nearly enough.
-Dialogue: 0,0:08:42.53,0:08:44.13,Main,Agott,0,0,0,,And are you willing to give those up?
-Dialogue: 0,0:08:47.21,0:08:48.41,Main,Agott,0,0,0,,Sand...
-Dialogue: 0,0:08:50.05,0:08:51.38,Main,Agott,0,0,0,,What about sand?
-Dialogue: 0,0:08:52.97,0:08:54.35,Main,Agott,0,0,0,,The Wall Breaker spell!
-Dialogue: 0,0:08:54.35,0:08:58.60,Main,Agott,0,0,0,,We can create a very fine sand \Nby busting up the walls and floors.
-Dialogue: 0,0:08:58.60,0:09:02.23,Main,Tetia,0,0,0,,Of course! Who doesn't love \Nlying on a sandy beach?!
-Dialogue: 0,0:09:02.23,0:09:04.48,Main,Tetia,0,0,0,,Smart thinking, Agott! Smartygott!
-Dialogue: 0,0:09:04.48,0:09:08.27,Main,Agott,0,0,0,,The more signs drawn to the seal, \Nthe finer the sand it will produce.
-Dialogue: 0,0:09:08.27,0:09:09.82,Main,Agott,0,0,0,,More so if the seals are smaller.
-Dialogue: 0,0:09:09.82,0:09:12.74,Main,Richeh,0,0,0,,Leave the tiny seals to Richeh!
-Dialogue: 0,0:09:13.45,0:09:14.41,Main,Coco,0,0,0,,So fast!
-Dialogue: 0,0:09:14.41,0:09:16.53,Main,Tetia,0,0,0,,That's Richeh's specialty!
-Dialogue: 0,0:09:16.53,0:09:19.97,Main,Agott,0,0,0,,Tetia, think of a spell that will \Ngather the sand in the central plaza
-Dialogue: 0,0:09:19.97,0:09:21.13,Main,Agott,0,0,0,,without packing it too hard.
-Dialogue: 0,0:09:21.13,0:09:24.60,Main,Agott,0,0,0,,I'll try to think up an enveloping spell \Nthat will keep it in place.
-Dialogue: 0,0:09:24.60,0:09:25.70,Main,Tetia,0,0,0,,You got it!
-Dialogue: 0,0:09:25.70,0:09:27.07,Main,Coco,0,0,0,,H-Hey!
-Dialogue: 0,0:09:29.03,0:09:30.65,Main,Coco,0,0,0,,What should I do?
-Dialogue: 0,0:09:30.65,0:09:32.23,Main,Agott,0,0,0,,Just stay out of it.
-Dialogue: 0,0:09:33.43,0:09:35.26,Main,Agott,0,0,0,,I've agreed to your plan,
-Dialogue: 0,0:09:35.26,0:09:38.92,Main,Agott,0,0,0,,but you're not at a skill level \Nwhere I can trust you with a spell.
-Dialogue: 0,0:09:39.39,0:09:41.74,Main,Agott,0,0,0,,The best thing you can do \Nis stay out of our way.
-Dialogue: 0,0:09:53.01,0:09:56.91,Italics,Coco,0,0,0,,How does she draw such a perfect circle?
-Dialogue: 0,0:10:14.65,0:10:17.00,Italics,Coco,0,0,0,,She draws the circle in \Nthe air a few times first,
-Dialogue: 0,0:10:17.00,0:10:19.32,Italics,Coco,0,0,0,,then starts at the point closest to her.
-Dialogue: 0,0:10:20.29,0:10:23.47,Italics,Coco,0,0,0,,Do Tetia and Richeh do it the same way?
-Dialogue: 0,0:10:30.27,0:10:33.11,Italics,Coco,0,0,0,,How have I been doing it?
-Dialogue: 0,0:10:33.56,0:10:36.59,Italics,Coco,0,0,0,,The place to start... the final shape...
-Dialogue: 0,0:10:36.59,0:10:38.80,Italics,Coco,0,0,0,,I guess I never gave much \Nthought to that stuff.
-Dialogue: 0,0:10:41.45,0:10:42.72,Italics,Coco,0,0,0,,I'm going to try it.
-Dialogue: 0,0:10:43.29,0:10:46.21,Italics,Coco,0,0,0,,Until I can do it like they can...
-Dialogue: 0,0:10:47.96,0:10:49.38,Italics,Coco,0,0,0,,I'm going to try it!
-Dialogue: 0,0:10:50.77,0:10:54.55,Main,Coco,0,0,0,,Like this... and then...
-Dialogue: 0,0:10:55.07,0:10:56.39,Main,Coco,0,0,0,,Then this...
-Dialogue: 0,0:11:09.61,0:11:10.76,Main,Richeh,0,0,0,,It's cold.
-Dialogue: 0,0:11:11.48,0:11:13.48,Main,Tetia,0,0,0,,Yeah, it's gotten pretty dark, huh?
-Dialogue: 0,0:11:13.48,0:11:14.78,Main,Tetia,0,0,0,,Should I start a fire?
-Dialogue: 0,0:11:14.78,0:11:16.21,Main,Richeh,0,0,0,,I'm out of paper.
-Dialogue: 0,0:11:16.21,0:11:17.72,Main,Tetia,0,0,0,,So am I.
-Dialogue: 0,0:11:18.67,0:11:20.61,Main,Agott,0,0,0,,It's hopeless.
-Dialogue: 0,0:11:20.61,0:11:23.22,Main,Agott,0,0,0,,A Sign of Convergence \Nwould pack it too hard.
-Dialogue: 0,0:11:23.22,0:11:25.55,Main,Tetia,0,0,0,,What if you wrap it in a membrane of air?
-Dialogue: 0,0:11:25.55,0:11:28.02,Main,Agott,0,0,0,,Too weak. It'll still fall apart.
-Dialogue: 0,0:11:28.73,0:11:31.30,Main,Richeh,0,0,0,,What about reinforcing it \Nwith fine strips of cloth?
-Dialogue: 0,0:11:31.30,0:11:33.93,Main,Agott,0,0,0,,Just wrapping it up in that \Nwon't be enough.
-Dialogue: 0,0:11:33.93,0:11:35.48,Main,Agott,0,0,0,,And it's going to get even colder, so—
-Dialogue: 0,0:11:35.48,0:11:36.51,Main,Richeh,0,0,0,,Forget it.
-Dialogue: 0,0:11:37.74,0:11:39.80,Main,Tetia,0,0,0,,There's gotta be something...
-Dialogue: 0,0:11:39.80,0:11:42.82,Main - Top,Tetia,0,0,0,,Need an idea... An idea...
-Dialogue: 0,0:11:41.02,0:11:42.82,Italics,Agott,0,0,0,,There must be a way.
-Dialogue: 0,0:11:42.82,0:11:44.61,Italics,Agott,0,0,0,,The perfect idea...
-Dialogue: 0,0:11:51.47,0:11:52.33,Main,Coco,0,0,0,,I...
-Dialogue: 0,0:11:53.10,0:11:54.24,Main,Coco,0,0,0,,I did it!
-Dialogue: 0,0:11:56.72,0:11:59.46,Main,Agott,0,0,0,,Um... why are you casting tha—
-Dialogue: 0,0:11:59.46,0:12:00.99,Main,Tetia,0,0,0,,It's stable.
-Dialogue: 0,0:12:01.71,0:12:03.14,Main,Tetia,0,0,0,,She cast a Pyreball!
-Dialogue: 0,0:12:03.14,0:12:05.03,Main,Tetia,0,0,0,,Yours used to go out right away, right?
-Dialogue: 0,0:12:05.03,0:12:07.44,Main,Tetia,0,0,0,,When did you learn to make it so good?
-Dialogue: 0,0:12:07.44,0:12:09.76,Main,Coco,0,0,0,,I've been practicing just now.
-Dialogue: 0,0:12:09.76,0:12:12.09,Main,Coco,0,0,0,,I was watching you all do your thing,
-Dialogue: 0,0:12:12.09,0:12:14.89,Main,Coco,0,0,0,,so I did it over and over until...
-Dialogue: 0,0:12:17.26,0:12:18.60,Main,Tetia,0,0,0,,That's amazing!
-Dialogue: 0,0:12:18.60,0:12:20.64,Main,Tetia,0,0,0,,Coco, you did it!
-Dialogue: 0,0:12:21.83,0:12:26.47,Main,Agott,0,0,0,,Well, anyone can learn \Nwith enough repetition...
-Dialogue: 0,0:12:27.88,0:12:30.60,Main,Agott,0,0,0,,Repetition?
-Dialogue: 0,0:12:31.35,0:12:32.86,Main,Agott,0,0,0,,Repetition! That's it!
-Dialogue: 0,0:12:40.42,0:12:41.74,Main,Agott,0,0,0,,Everyone ready?
-Dialogue: 0,0:12:42.52,0:12:44.14,Main,Tetia,0,0,0,,Ready anytime.
-Dialogue: 0,0:12:45.69,0:12:47.29,Main,Agott,0,0,0,,All right, let's go!
-Dialogue: 0,0:12:56.30,0:12:57.27,Main,Tetia,0,0,0,,Coco!
-Dialogue: 0,0:12:58.31,0:12:59.22,Main,Coco,0,0,0,,Thanks!
-Dialogue: 0,0:12:59.78,0:13:01.80,Main,Agott,0,0,0,,It's definitely bigger than before.
-Dialogue: 0,0:13:02.08,0:13:03.97,Main,Agott,0,0,0,,We have to finish this quickly.
-Dialogue: 0,0:13:04.37,0:13:05.81,Main,Agott,0,0,0,,Richeh, go on ahead!
-Dialogue: 0,0:13:05.81,0:13:06.48,Main,Richeh,0,0,0,,Right.
-Dialogue: 0,0:13:43.13,0:13:44.17,Main,Tetia,0,0,0,,Done!
-Dialogue: 0,0:13:44.17,0:13:45.18,Main,Tetia,0,0,0,,Coco!
-Dialogue: 0,0:13:45.18,0:13:45.97,Main,Coco,0,0,0,,Right!
-Dialogue: 0,0:13:49.29,0:13:51.68,Main,Agott,0,0,0,,Make the sign to close the rings.
-Dialogue: 0,0:13:51.68,0:13:52.48,Main,Richeh,0,0,0,,Right.
-Dialogue: 0,0:13:53.52,0:13:54.48,Main,Richeh,0,0,0,,Three...
-Dialogue: 0,0:13:54.48,0:13:55.73,Main,Coco,0,0,0,,Two...
-Dialogue: 0,0:13:55.99,0:13:56.98,Main,Coco/Richeh,0,0,0,,One...
-Dialogue: 0,0:14:04.93,0:14:06.09,Main,Agott,0,0,0,,Richeh, next station!
-Dialogue: 0,0:14:06.09,0:14:06.99,Main,Richeh,0,0,0,,Right.
-Dialogue: 0,0:14:31.35,0:14:32.32,Main,Coco,0,0,0,,It noticed!
-Dialogue: 0,0:14:32.32,0:14:33.85,Main,Tetia,0,0,0,,We need to meet up!
-Dialogue: 0,0:14:33.85,0:14:35.24,Main,Agott,0,0,0,,Did you finish your rings?
-Dialogue: 0,0:14:35.24,0:14:36.86,Main,Richeh,0,0,0,,All activated.
-Dialogue: 0,0:14:36.86,0:14:38.11,Main,Agott,0,0,0,,Great.
-Dialogue: 0,0:14:38.11,0:14:39.60,Flashback_Italics,Tetia,0,0,0,,Repetition?
-Dialogue: 0,0:14:39.60,0:14:40.82,Flashback,Agott,0,0,0,,Yes.
-Dialogue: 0,0:14:40.82,0:14:43.35,Flashback,Agott,0,0,0,,To keep the spell from falling apart,
-Dialogue: 0,0:14:43.35,0:14:47.74,Flashback,Agott,0,0,0,,we'll wrap it in repetition magic that \Nconstantly returns it to its initial form.
-Dialogue: 0,0:14:48.03,0:14:49.12,Flashback,Agott,0,0,0,,In other words,
-Dialogue: 0,0:14:49.12,0:14:54.00,Flashback,Agott,0,0,0,,envelop the Wall Breaker/Billow Cluster \Ncombination in a Repetition Spell
-Dialogue: 0,0:14:51.99,0:14:53.00,Main - Top,Tetia,0,0,0,,Coco!
-Dialogue: 0,0:14:54.00,0:14:56.17,Flashback,Agott,0,0,0,,to create a cloud of sand.
-Dialogue: 0,0:14:56.17,0:15:00.17,Flashback,Agott,0,0,0,,Given the size of the dragon, \Nwe'll need five, I think.
-Dialogue: 0,0:14:56.52,0:14:57.70,Main - Top,Agott,0,0,0,,Current status?
-Dialogue: 0,0:14:57.70,0:15:00.17,Main - Top,Tetia,0,0,0,,It's wary, but almost there...
-Dialogue: 0,0:15:00.17,0:15:05.18,Flashback,Agott,0,0,0,,If we can sync the positioning and \Ntiming right to combine five into one...
-Dialogue: 0,0:15:05.18,0:15:06.90,Flashback,Agott,0,0,0,,Even if it sinks with the beast's weight,
-Dialogue: 0,0:15:06.90,0:15:09.96,Flashback,Agott,0,0,0,,the sand cloud will keep trying \Nto return to its original shape,
-Dialogue: 0,0:15:09.96,0:15:12.96,Flashback,Agott,0,0,0,,and maintain its nice fluffiness.
-Dialogue: 0,0:15:13.93,0:15:15.31,Main,Agott,0,0,0,,I call it...
-Dialogue: 0,0:15:14.31,0:15:15.31,Main,Tetia,0,0,0,,I call it...
-Dialogue: 0,0:15:24.01,0:15:26.68,Main,Coco/Tetia,0,0,0,,The Dragon Disabler Cushion!
-Dialogue: 0,0:15:27.70,0:15:29.90,Main,Agott,0,0,0,,Wrong. It's the Serpent's Bed of Sand.
-Dialogue: 0,0:15:29.90,0:15:31.32,Main,Tetia,0,0,0,,That's much cooler!
-Dialogue: 0,0:15:31.32,0:15:32.32,Main,Tetia,0,0,0,,Smartygott!
-Dialogue: 0,0:15:32.32,0:15:33.38,Main,Richeh,0,0,0,,Smartygott.
-Dialogue: 0,0:15:33.38,0:15:34.84,Main,Agott,0,0,0,,Enough nonsense.
-Dialogue: 0,0:15:34.84,0:15:36.83,Main,Agott,0,0,0,,Now's our chance to get past it!
-Dialogue: 0,0:15:40.97,0:15:42.09,Main,Coco,0,0,0,,Tetia?
-Dialogue: 0,0:15:42.54,0:15:43.92,Main,Coco,0,0,0,,What is it?
-Dialogue: 0,0:15:43.92,0:15:45.97,Main,Tetia,0,0,0,,Oh, nothing.
-Dialogue: 0,0:15:46.64,0:15:48.59,Main,Tetia,0,0,0,,I just couldn't help but look.
-Dialogue: 0,0:15:49.90,0:15:53.72,Main,Tetia,0,0,0,,That dragon looks really happy, huh?
-Dialogue: 0,0:15:54.54,0:16:00.11,Main,Tetia,0,0,0,,I think this is the first time I've ever \Nmade someone happy with a spell.
-Dialogue: 0,0:16:04.02,0:16:07.06,Main,Tetia,0,0,0,,Who'd have thought \Nit'd bring you such joy?
-Dialogue: 0,0:16:15.25,0:16:16.29,Main,Agott,0,0,0,,Well?
-Dialogue: 0,0:16:16.29,0:16:19.10,Main,Coco,0,0,0,,Yeah, I think this is it.
-Dialogue: 0,0:16:19.10,0:16:20.86,Main,Tetia,0,0,0,,What kind of spell is it?
-Dialogue: 0,0:16:20.86,0:16:22.68,Main,Richeh,0,0,0,,I've never seen it before.
-Dialogue: 0,0:16:23.75,0:16:26.26,Main,Agott,0,0,0,,Master might know, I suppose.
-Dialogue: 0,0:16:31.31,0:16:32.64,Main,Qifrey,0,0,0,,They're in here?
-Dialogue: 0,0:16:35.02,0:16:36.65,Italics,Qifrey,0,0,0,,I don't sense anyone.
-Dialogue: 0,0:16:36.65,0:16:38.33,Italics,Qifrey,0,0,0,,Did they move on already?
-Dialogue: 0,0:16:38.33,0:16:39.39,Main,Tartah,0,0,0,,Huh?
-Dialogue: 0,0:16:39.39,0:16:43.22,Main,Tartah,0,0,0,,I thought this alley was paved...
-Dialogue: 0,0:16:43.22,0:16:45.65,Main,Tartah,0,0,0,,Maybe they removed the \Nflagstones at some point.
-Dialogue: 0,0:16:46.80,0:16:49.69,Italics,Qifrey,0,0,0,,Brushbuddies are drawn to \Nthe smell of Conjuring Ink.
-Dialogue: 0,0:16:51.00,0:16:52.03,Main,Qifrey,0,0,0,,Is this—
-Dialogue: 0,0:16:55.36,0:16:56.62,Main,Qifrey,0,0,0,,Get back!
-Dialogue: 0,0:17:06.77,0:17:10.90,Main,Agott,0,0,0,,Why didn't you think \Nbefore breaking the seal?!
-Dialogue: 0,0:17:10.90,0:17:13.53,Main,Tetia,0,0,0,,It's what brought us here, isn't it?!
-Dialogue: 0,0:17:13.53,0:17:15.18,Main,Coco,0,0,0,,Look up, everyone!
-Dialogue: 0,0:17:15.18,0:17:16.70,Main,Coco,0,0,0,,I can see the sky!
-Dialogue: 0,0:17:17.18,0:17:19.66,Main,Coco,0,0,0,,Is that the way out?!
-Dialogue: 0,0:17:19.66,0:17:20.67,Main,Agott,0,0,0,,Get down!
-Dialogue: 0,0:17:27.42,0:17:28.57,Main,Coco,0,0,0,,Ago—
-Dialogue: 0,0:17:30.57,0:17:32.28,Italics,Agott,0,0,0,,What do I do?
-Dialogue: 0,0:17:32.28,0:17:36.34,Italics,Agott,0,0,0,,I'm not wearing my Sylph Shoes...
-Dialogue: 0,0:17:48.94,0:17:50.14,Main,Agott,0,0,0,,Master?
-Dialogue: 0,0:17:50.14,0:17:52.43,Main,Qifrey,0,0,0,,A dragon, is it?
-Dialogue: 0,0:17:52.43,0:17:53.89,Main,Agott,0,0,0,,Master, I—
-Dialogue: 0,0:17:53.89,0:17:55.76,Main,Qifrey,0,0,0,,It's coming. Hang on.
-Dialogue: 0,0:18:04.85,0:18:07.36,Main,Qifrey,0,0,0,,I need my hands free. Hold on tight!
-Dialogue: 0,0:18:07.36,0:18:08.35,Main,Agott,0,0,0,,Yes, sir!
-Dialogue: 0,0:19:06.37,0:19:08.15,Main,Qifrey,0,0,0,,You're safe now.
-Dialogue: 0,0:19:08.15,0:19:10.13,Main,Qifrey,0,0,0,,I think it's unconscious.
-Dialogue: 0,0:19:11.39,0:19:12.49,Main,Qifrey,0,0,0,,Agott?
-Dialogue: 0,0:19:13.10,0:19:14.45,Main,Agott,0,0,0,,R-Right...
-Dialogue: 0,0:19:14.45,0:19:16.38,Main,Tetia,0,0,0,,Master!
-Dialogue: 0,0:19:16.38,0:19:18.38,Main,Qifrey,0,0,0,,Tetia! Richeh!
-Dialogue: 0,0:19:17.10,0:19:19.61,Main - Top,Tetia,0,0,0,,I was so scared!
-Dialogue: 0,0:19:18.38,0:19:20.76,Main,Richeh,0,0,0,,How did you get here, sir?
-Dialogue: 0,0:19:20.76,0:19:24.62,Main,Qifrey,0,0,0,,I was searching for you when \Nthe space opened up around me...
-Dialogue: 0,0:19:27.62,0:19:28.73,Main,Qifrey,0,0,0,,Where's Coco?
-Dialogue: 0,0:19:34.52,0:19:36.15,Main,Iguin,0,0,0,,Hello, Coco.
-Dialogue: 0,0:19:36.98,0:19:42.79,Main,Iguin,0,0,0,,I've waited so long for the \Nseeds I planted to sprout.
-Dialogue: 0,0:19:43.91,0:19:47.32,Main,Iguin,0,0,0,,How did you like the \Nassignment I gave you?
-Dialogue: 0,0:19:47.75,0:19:50.49,Main,Iguin,0,0,0,,Did it aid your growth?
-Dialogue: 0,0:19:50.93,0:19:54.67,Main,Iguin,0,0,0,,I know. I'll give you a gift.
-Dialogue: 0,0:19:55.30,0:20:00.18,Main,Iguin,0,0,0,,I'll teach you things that Qifrey can't.
-Dialogue: 0,0:20:00.67,0:20:02.43,Main,Iguin,0,0,0,,And when the day comes...
-Dialogue: 0,0:20:03.04,0:20:06.78,Main,Iguin,0,0,0,,Yes, what a day that will be!
-Dialogue: 0,0:20:10.86,0:20:11.87,Main,Tetia,0,0,0,,Coco!
-Dialogue: 0,0:20:12.18,0:20:13.43,Main,Tetia,0,0,0,,Coco!
-Dialogue: 0,0:20:14.44,0:20:15.77,Main,Tetia,0,0,0,,Coco!
-Dialogue: 0,0:20:18.70,0:20:20.66,Main,Coco,0,0,0,,Master Qifrey...
-Dialogue: 0,0:20:21.30,0:20:22.70,Main,Coco,0,0,0,,Everyone...
-Dialogue: 0,0:20:26.29,0:20:27.13,Main,Coco,0,0,0,,Is Agott—
-Dialogue: 0,0:20:27.13,0:20:28.11,Main,Agott,0,0,0,,I'm right here.
-Dialogue: 0,0:20:28.64,0:20:30.74,Main,Agott,0,0,0,,Thank you for this, Tartah.
-Dialogue: 0,0:20:31.29,0:20:32.73,Main - Top,Tartah,0,0,0,,Sure.
-Dialogue: 0,0:20:32.73,0:20:35.95,Main - Top,Tartah,0,0,0,,I'll see if I can get Grandpa to come by.
-Dialogue: 0,0:20:34.81,0:20:35.95,Main,Coco,0,0,0,,Thank goodness.
-Dialogue: 0,0:20:36.55,0:20:39.06,Main,Coco,0,0,0,,Wait, is this Kalhn?
-Dialogue: 0,0:20:39.06,0:20:42.35,Main,Tetia,0,0,0,,Yes, we all made it back!
-Dialogue: 0,0:20:42.35,0:20:44.06,Main,Qifrey,0,0,0,,Thank goodness\NI was able to find you.
-Dialogue: 0,0:20:44.06,0:20:46.52,Main,Qifrey,0,0,0,,You were unconscious on the tower stairs.
-Dialogue: 0,0:20:46.52,0:20:48.02,Main,Coco,0,0,0,,The stairs?
-Dialogue: 0,0:20:49.75,0:20:52.31,Main,Qifrey,0,0,0,,Wait... did the Brimmed Caps \Ndo something to you?
-Dialogue: 0,0:20:52.31,0:20:56.02,Main,Coco,0,0,0,,No! I'm just a little spaced out.
-Dialogue: 0,0:20:56.02,0:20:57.32,Main,Coco,0,0,0,,Um...
-Dialogue: 0,0:21:03.11,0:21:04.29,Main,Tetia,0,0,0,,Coco?
-Dialogue: 0,0:21:05.52,0:21:06.95,Main,Tetia,0,0,0,,Are you okay?
-Dialogue: 0,0:21:08.51,0:21:11.66,Main,Coco,0,0,0,,Yeah... I'm fine. I'm fi—
-Dialogue: 0,0:21:24.55,0:21:27.00,Main,Coco,0,0,0,,I'm sorry.
-Dialogue: 0,0:21:29.65,0:21:33.22,Main,Coco,0,0,0,,I got you all mixed up in this.
-Dialogue: 0,0:21:34.74,0:21:36.13,Main,Coco,0,0,0,,I'm really...
-Dialogue: 0,0:21:37.61,0:21:39.11,Main,Coco,0,0,0,,really sorry.
-Dialogue: 0,0:21:43.59,0:21:47.74,Main - Top,Qifrey,0,0,0,,Tetia told me what happened in there.
-Dialogue: 0,0:21:48.33,0:21:51.25,Main,Qifrey,0,0,0,,And what you all did there.
-Dialogue: 0,0:21:53.99,0:21:57.34,Main,Qifrey,0,0,0,,It sounds like you saved them all.
-Dialogue: 0,0:21:58.81,0:22:03.47,Main,Qifrey,0,0,0,,Ideas are as important to \Nspellcasting as penmanship.
-Dialogue: 0,0:22:03.47,0:22:05.78,Main,Qifrey,0,0,0,,Let's work hard to nurture that talent.
-Dialogue: 0,0:22:19.48,0:22:20.63,Main,Coco,0,0,0,,Okay!
-Dialogue: 0,0:22:21.88,0:22:24.99,Main - Top,Tetia,0,0,0,,Coco! I'm so glad you're safe!
-Dialogue: 0,0:22:24.99,0:22:26.95,Main - Top,Coco,0,0,0,,I'm sorry I worried you!
-Dialogue: 0,0:22:26.95,0:22:28.41,Main - Top,Coco,0,0,0,,I'm sorry, Richeh, and Agott...
-Dialogue: 0,0:22:28.41,0:22:29.99,Main - Top,Agott,0,0,0,,I wasn't worried.
-Dialogue: 0,0:22:29.99,0:22:34.40,Main - Top,Tetia,0,0,0,,She was totally worried. \NI saw your cloak—
-Dialogue: 0,0:22:29.99,0:22:32.47,Main,Nolnoa,0,0,0,,They're not just safe, they're thriving!
-Dialogue: 0,0:22:32.47,0:22:34.40,Main,Qifrey,0,0,0,,Yes, thanks to all your help.
-Dialogue: 0,0:22:34.75,0:22:36.69,Main,Nolnoa,0,0,0,,It's awfully late.
-Dialogue: 0,0:22:36.69,0:22:39.05,Main,Nolnoa,0,0,0,,Why not get a room at an inn—
-Dialogue: 0,0:22:39.05,0:22:40.00,Main,Qifrey,0,0,0,,Mr. Nolnoa.
-Dialogue: 0,0:22:40.47,0:22:42.65,Main,Qifrey,0,0,0,,I have a serious favor to ask you.
-Dialogue: 0,0:22:42.65,0:22:43.71,Main,Nolnoa,0,0,0,,Eh?
-Dialogue: 0,0:22:44.38,0:22:47.31,Main - Top,Qifrey,0,0,0,,There's a Casting Seal \Ndrawn on the back of this.
-Dialogue: 0,0:22:47.31,0:22:50.86,Main - Top,Qifrey,0,0,0,,I need to know what's in the ink.
-Dialogue: 0,0:22:50.86,0:22:52.83,Main - Top,Qifrey,0,0,0,,Will you look into it for me?
-Dialogue: 0,0:22:52.83,0:22:55.55,Main - Top,Nolnoa,0,0,0,,Let's see. What's in the ink?
-Dialogue: 0,0:22:55.55,0:22:59.77,Main - Top,Qifrey,0,0,0,,And please don't tell the \NKnights Moralis about this.
-Dialogue: 0,0:23:00.40,0:23:04.90,Main,Nolnoa,0,0,0,,B-But we have an obligation to \Nreport Forbidden Magic sightings—
-Dialogue: 0,0:23:06.74,0:23:08.91,Main,Qifrey,0,0,0,,Do not tell anyone of this.
-Dialogue: 0,0:23:09.40,0:23:10.72,Main,Qifrey,0,0,0,,Not {\i1}anyone{\i0}.
-Dialogue: 0,0:23:21.43,0:23:24.93,Main,Nolnoa,0,0,0,,Honestly. I wonder \Nwhat's happening here...
-Dialogue: 0,0:23:25.93,0:23:27.56,Main - Top,Agott,0,0,0,,Isn't that Coco's?
-Dialogue: 0,0:23:27.56,0:23:32.66,Main,Nolnoa,0,0,0,,Or perhaps... what's about to happen?
-Dialogue: 0,0:23:27.56,0:23:31.18,Main - Top,Coco,0,0,0,,Whoops! I forgot.
-Dialogue: 0,0:23:35.35,0:23:39.94,Sign_Basic,TEXT,0,0,0,,{\fad(250,0)\pos(320,105)\fnTimes New Roman\fs20\c&H000000&\bord0\shad0}Episode 6:
-Dialogue: 0,0:23:35.35,0:23:39.94,Sign_Basic,TEXT,0,0,0,,{\fad(1000,0)\fnTimes New Roman\fs28\c&H000000&\bord0\shad0\pos(320,245)}A Light on a Rainy Day
+Dialogue: 0,0:00:22.31,0:00:23.91,GJM_Main_1080p,Tetia,0,0,0,,Isn't this...
+Dialogue: 0,0:00:23.91,0:00:27.34,GJM_Main_1080p,Agott,0,0,0,,{\an8}Yes, it's the hole Richeh opened again.
+Dialogue: 0,0:00:27.34,0:00:28.90,GJM_Main_1080p,Richeh,0,0,0,,{\an8}How many times is that now?
+Dialogue: 0,0:00:28.90,0:00:31.14,GJM_Main_1080p,Tetia,0,0,0,,{\an8}I've lost count.
+Dialogue: 0,0:00:31.14,0:00:34.89,GJM_Main_1080p,Agott,0,0,0,,Anyway, let's find \Nsomewhere covered to hide.
+Dialogue: 0,0:00:34.89,0:00:37.10,GJM_Main_1080p,Agott,0,0,0,,I think it's getting colder in here.
+Dialogue: 0,0:00:53.29,0:00:55.05,GJM_Main_1080p,Coco,0,0,0,,T-Tetia.
+Dialogue: 0,0:00:57.65,0:01:00.08,GJM_Main_1080p,Coco,0,0,0,,You... dropped this.
+Dialogue: 0,0:01:05.05,0:01:06.55,GJM_Main_1080p,Tetia,0,0,0,,Thanks.
+Dialogue: 0,0:01:08.56,0:01:10.98,GJM_Main_1080p,Coco,0,0,0,,Um... are you okay?
+Dialogue: 0,0:01:13.96,0:01:15.89,GJM_Main_1080p,Coco,0,0,0,,Yeah, I guess not...
+Dialogue: 0,0:01:16.33,0:01:18.68,GJM_Main_1080p,Coco,0,0,0,,I'm sorry. This is all my fault.
+Dialogue: 0,0:01:21.38,0:01:22.44,GJM_Main_1080p,Coco,0,0,0,,And, um...
+Dialogue: 0,0:01:22.44,0:01:25.39,GJM_Main_1080p,Coco,0,0,0,,Y-You'll be cold without a cloak, \Nso wear mine instead!
+Dialogue: 0,0:01:25.39,0:01:27.07,GJM_Main_1080p,Coco,0,0,0,,I'll just snuggle up close!
+Dialogue: 0,0:01:33.25,0:01:34.56,GJM_Main_1080p,Tetia,0,0,0,,Coco?
+Dialogue: 0,0:01:36.06,0:01:40.15,GJM_Main_1080p,Coco,0,0,0,,I feel really safe when I have it on.
+Dialogue: 0,0:01:42.11,0:01:46.38,GJM_Main_1080p,Coco,0,0,0,,When I'm wearing my cloak, \Nnobody can see that I'm shaking with fear.
+Dialogue: 0,0:01:46.38,0:01:51.14,GJM_Main_1080p,Coco,0,0,0,,Knowing that I still look like a witch \Non the outside helps me be brave.
+Dialogue: 0,0:01:51.14,0:01:54.41,GJM_Main_1080p,Coco,0,0,0,,So I want you to wear it right now.
+Dialogue: 0,0:01:54.41,0:01:57.76,GJM_Main_1080p,Coco,0,0,0,,You'll be a lot more help than I've been.
+Dialogue: 0,0:02:01.35,0:02:02.48,GJM_Main_1080p,Coco,0,0,0,,What the?!
+Dialogue: 0,0:02:05.04,0:02:06.61,GJM_Main_1080p,Agott,0,0,0,,What are they doing?
+Dialogue: 0,0:02:09.64,0:02:11.12,GJM_Main_1080p,Coco,0,0,0,,It's warm.
+Dialogue: 0,0:02:11.51,0:02:12.53,GJM_Main_1080p,Coco,0,0,0,,A cloud?
+Dialogue: 0,0:02:13.11,0:02:16.78,GJM_Main_1080p,Tetia,0,0,0,,I'm sorry I looked at you \Nlike this was your fault!
+Dialogue: 0,0:02:21.43,0:02:23.98,GJM_Main_1080p,Coco,0,0,0,,It's fine. It {\i1}is{\i0} my fault, anyway.
+Dialogue: 0,0:02:23.98,0:02:27.25,GJM_Main_1080p,Coco,0,0,0,,And it's not like you actually said it...
+Dialogue: 0,0:02:28.00,0:02:30.27,GJM_Main_1080p,Tetia,0,0,0,,If I acted like it, it's no better.
+Dialogue: 0,0:02:30.27,0:02:34.63,GJM_Main_1080p,Tetia,0,0,0,,I took my fear out on you.
+Dialogue: 0,0:02:34.63,0:02:39.15,GJM_Main_1080p,Tetia,0,0,0,,I've been doing this longer than you. \NI'm supposed to protect you.
+Dialogue: 0,0:02:39.67,0:02:40.73,GJM_Main_1080p,Coco,0,0,0,,Tetia...
+Dialogue: 0,0:02:42.89,0:02:44.42,GJM_Main_1080p,Coco,0,0,0,,But you {\i1}are{\i0} protecting me!
+Dialogue: 0,0:02:44.42,0:02:46.34,GJM_Main_1080p,Coco,0,0,0,,Look how warm this spell is!
+Dialogue: 0,0:02:46.34,0:02:48.29,GJM_Main_1080p,Coco,0,0,0,,I feel super relaxed even \Nthough we're in danger!
+Dialogue: 0,0:02:48.29,0:02:50.21,GJM_Main_1080p,Coco,0,0,0,,It's amazing! Magic is so powerful!
+Dialogue: 0,0:02:51.96,0:02:55.40,GJM_Main_1080p,Tetia,0,0,0,,It's my very own creation.
+Dialogue: 0,0:02:55.79,0:02:59.81,GJM_Main_1080p,Tetia,0,0,0,,When I was a little kid, \NI dreamed about napping on a cloud.
+Dialogue: 0,0:02:59.81,0:03:01.91,GJM_Main_1080p,Tetia,0,0,0,,So I've been trying out different things.
+Dialogue: 0,0:03:01.91,0:03:04.41,GJM_Main_1080p,Tetia,0,0,0,,It's not finished yet, though.
+Dialogue: 0,0:03:04.41,0:03:07.58,GJM_Main_1080p,Tetia,0,0,0,,Once it is, I'd like to \Nsubmit it for approval
+Dialogue: 0,0:03:07.58,0:03:10.29,GJM_Main_1080p,Tetia,0,0,0,,as a general-use spell \Nfor everyone to try.
+Dialogue: 0,0:03:10.29,0:03:13.02,GJM_Main_1080p,Tetia,0,0,0,,It might not be the most \Nuseful spell out there,
+Dialogue: 0,0:03:13.02,0:03:15.80,GJM_Main_1080p,Tetia,0,0,0,,but it's my dream, \Nand that means a lot to me.
+Dialogue: 0,0:03:16.12,0:03:18.50,GJM_Main_1080p,Tetia,0,0,0,,So you should wear your own cloak.
+Dialogue: 0,0:03:18.50,0:03:21.18,GJM_Main_1080p,Tetia,0,0,0,,Let's not take off our novice cloaks \Nuntil we're back home safe
+Dialogue: 0,0:03:21.18,0:03:24.31,GJM_Main_1080p,Tetia,0,0,0,,and we all become real witches together.
+Dialogue: 0,0:03:24.67,0:03:25.64,GJM_Main_1080p,Tetia,0,0,0,,Okay?
+Dialogue: 0,0:03:29.21,0:03:30.19,GJM_Main_1080p,Coco,0,0,0,,Yeah!
+Dialogue: 0,0:03:33.85,0:03:34.93,GJM_Main_1080p,Agott,0,0,0,,I heard all that.
+Dialogue: 0,0:03:35.34,0:03:36.43,GJM_Main_1080p,Agott,0,0,0,,If you want to lie on top of this,
+Dialogue: 0,0:03:36.43,0:03:39.13,GJM_Main_1080p,Agott,0,0,0,,it needs to be made of \Na substance with more mass.
+Dialogue: 0,0:03:39.13,0:03:41.19,GJM_Main_1080p,Richeh,0,0,0,,Too cold outside.
+Dialogue: 0,0:03:41.19,0:03:42.52,GJM_Main_1080p,Richeh,0,0,0,,Richeh's coming in.
+Dialogue: 0,0:03:42.52,0:03:44.29,GJM_Main_1080p,Agott,0,0,0,,If you want people \Nto be able to fly on it,
+Dialogue: 0,0:03:44.29,0:03:46.91,GJM_Main_1080p,Agott,0,0,0,,you'll need a cloud-like \Nmaterial to substitute.
+Dialogue: 0,0:03:46.91,0:03:47.78,GJM_Main_1080p,Agott,0,0,0,,Like cotton.
+Dialogue: 0,0:03:47.78,0:03:50.20,GJM_Main_1080p,Tetia,0,0,0,,But then it would just be \Na normal mattress!
+Dialogue: 0,0:03:50.20,0:03:54.21,GJM_Main_1080p,Agott,0,0,0,,It's fine to talk about dreams, \Nbut how about reality?
+Dialogue: 0,0:03:54.77,0:03:57.84,GJM_Main_1080p,Agott,0,0,0,,How are we going to get out of here?
+Dialogue: 0,0:03:58.58,0:04:01.76,GJM_Main_1080p,Agott,0,0,0,,This whole area seems \Nto be under a spell,
+Dialogue: 0,0:04:01.76,0:04:05.47,GJM_Main_1080p,Agott,0,0,0,,which is why we keep ending \Nup at the same place.
+Dialogue: 0,0:04:05.76,0:04:10.73,GJM_Main_1080p,Agott,0,0,0,,Any kind of magic—even the forbidden \Nkind—needs a Casting Seal to work.
+Dialogue: 0,0:04:11.14,0:04:13.11,GJM_Main_1080p,Agott,0,0,0,,We need to find out where it is and—
+Dialogue: 0,0:04:13.11,0:04:14.12,GJM_Main_1080p,Coco,0,0,0,,Excuse me.
+Dialogue: 0,0:04:15.96,0:04:20.51,GJM_Main_1080p,Coco,0,0,0,,I think I saw the Casting Seal... maybe?
+Dialogue: 0,0:04:21.60,0:04:24.37,GJM_Main_1080p,Agott,0,0,0,,You're right. It's up there.
+Dialogue: 0,0:04:26.09,0:04:28.00,GJM_Main_1080p,Richeh,0,0,0,,Yeah. A Casting Seal.
+Dialogue: 0,0:04:28.00,0:04:32.19,GJM_Main_1080p,Tetia,0,0,0,,Huh? Does that dragon \Nlook bigger than before?
+Dialogue: 0,0:04:32.19,0:04:36.17,GJM_Main_1080p,Richeh,0,0,0,,Or we're getting smaller \Nwith the rest of the space.
+Dialogue: 0,0:04:36.84,0:04:42.01,GJM_Main_1080p,Agott,0,0,0,,Either way, if the dragon is protecting \Nthe Casting Seal, we'll have to beat it.
+Dialogue: 0,0:04:42.01,0:04:44.01,GJM_Main_1080p,Agott,0,0,0,,I'm thinking fire magic—
+Dialogue: 0,0:04:42.87,0:04:44.01,GJM_Overlap_1080p,Coco,0,0,0,Overlap,Um...
+Dialogue: 0,0:04:44.95,0:04:49.08,GJM_Main_1080p,Coco,0,0,0,,I don't think your fire spell \Ndid much to it before.
+Dialogue: 0,0:04:49.75,0:04:50.47,GJM_Main_1080p,Agott,0,0,0,,Pardon?
+Dialogue: 0,0:04:50.47,0:04:52.19,GJM_Main_1080p,Coco,0,0,0,,Um, I mean...
+Dialogue: 0,0:04:52.69,0:04:55.95,GJM_Main_1080p,Coco,0,0,0,,You slowed it down, \Nbut I don't think you actually hurt it.
+Dialogue: 0,0:04:56.36,0:05:00.57,GJM_Main_1080p,Coco,0,0,0,,So... I don't think fire \Nis the way to beat it.
+Dialogue: 0,0:05:02.11,0:05:04.73,GJM_Main_1080p,Agott,0,0,0,,What do you propose, then?
+Dialogue: 0,0:05:04.73,0:05:05.95,GJM_Main_1080p,Coco,0,0,0,,We don't beat it.
+Dialogue: 0,0:05:11.96,0:05:15.05,GJM_Main_1080p,Agott,0,0,0,,Are you still mad about what \NI said before or something?!
+Dialogue: 0,0:05:15.05,0:05:16.21,GJM_Main_1080p,Coco,0,0,0,,No, no!
+Dialogue: 0,0:05:16.21,0:05:19.29,GJM_Main_1080p,Coco,0,0,0,,You and Tetia just gave me an idea...
+Dialogue: 0,0:05:21.16,0:05:22.92,GJM_Main_1080p,Coco,0,0,0,,I have a plan.
+Dialogue: 0,0:05:22.92,0:05:25.35,GJM_Main_1080p,Coco,0,0,0,,I don't know if it'll work, but...
+Dialogue: 0,0:05:25.35,0:05:26.74,GJM_Main_1080p,Coco,0,0,0,,I'd like to try it.
+Dialogue: 0,0:05:34.51,0:05:35.86,GJM_Main_1080p,Tetia,0,0,0,,You mean...
+Dialogue: 0,0:05:35.86,0:05:37.40,GJM_Main_1080p,Coco,0,0,0,,Yes!
+Dialogue: 0,0:05:37.40,0:05:41.28,GJM_Main_1080p,Coco,0,0,0,,The plan to make Tetia's dream come true!
+Dialogue: 0,0:05:42.34,0:05:43.61,GJM_Main_1080p,Agott,0,0,0,,What are you talking about?
+Dialogue: 0,0:05:43.61,0:05:46.63,GJM_Main_1080p,Coco,0,0,0,,Well, Tetia's cloud made \Nus feel warm and safe
+Dialogue: 0,0:05:46.63,0:05:48.83,GJM_Main_1080p,Coco,0,0,0,,in this bitter, cold place, right?
+Dialogue: 0,0:05:48.83,0:05:52.46,GJM_Main_1080p,Coco,0,0,0,,So what if we make a \Ncloud bed for the dragon,
+Dialogue: 0,0:05:52.46,0:05:56.38,GJM_Main_1080p,Coco,0,0,0,,so it would stay there \Ninstead of attacking us?
+Dialogue: 0,0:05:56.38,0:05:58.95,GJM_Main_1080p,Agott,0,0,0,,I doubt it's going to go that—
+Dialogue: 0,0:05:57.61,0:05:58.95,GJM_Overlap_1080p,Richeh,0,0,0,Overlap,True.
+Dialogue: 0,0:05:59.42,0:06:02.41,GJM_Main_1080p,Richeh,0,0,0,,All are helpless before \Nthe power of a warm bed!
+Dialogue: 0,0:06:02.41,0:06:04.43,GJM_Main_1080p,Richeh,0,0,0,,Even dragons, probably!
+Dialogue: 0,0:06:04.43,0:06:06.01,GJM_Main_1080p,Tetia,0,0,0,,Yeah, that's right!
+Dialogue: 0,0:06:06.01,0:06:09.04,GJM_Main_1080p,Agott,0,0,0,,But... that's...
+Dialogue: 0,0:06:10.91,0:06:13.98,GJM_Main_1080p,Agott,0,0,0,,Look, give me a minute \Nto work through this.
+Dialogue: 0,0:06:13.98,0:06:17.83,GJM_Main_1080p,Agott,0,0,0,,Humans certainly find warm \Nbeds irresistible, but...
+Dialogue: 0,0:06:19.69,0:06:22.53,GJM_Main_1080p,Tetia,0,0,0,,Coco? Is something wrong?
+Dialogue: 0,0:06:22.53,0:06:24.97,GJM_Main_1080p,Coco,0,0,0,,No, it's nothing!
+Dialogue: 0,0:06:24.97,0:06:28.09,GJM_Main_1080p,Coco,0,0,0,,I was just wondering \Nif the dragon was okay.
+Dialogue: 0,0:06:29.78,0:06:31.00,GJM_Main_1080p,Tetia,0,0,0,,The dragon?
+Dialogue: 0,0:06:31.00,0:06:33.67,GJM_Main_1080p,Coco,0,0,0,,When we ran away before,
+Dialogue: 0,0:06:33.67,0:06:37.69,GJM_Main_1080p,Coco,0,0,0,,it slammed hard into \Na pillar, nose-first.
+Dialogue: 0,0:06:37.69,0:06:40.93,GJM_Main_1080p,Coco,0,0,0,,At the time, I was too scared \Nto think twice about it,
+Dialogue: 0,0:06:40.93,0:06:44.72,GJM_Main_1080p,Coco,0,0,0,,but I'm thinking it was \Nprobably really painful.
+Dialogue: 0,0:06:45.80,0:06:49.93,GJM_Main_1080p,Coco,0,0,0,,And that's why, well...
+Dialogue: 0,0:06:50.35,0:06:53.98,GJM_Main_1080p,Coco,0,0,0,,That's why I thought this \Nplan was worth trying!
+Dialogue: 0,0:06:57.23,0:07:01.73,GJM_Main_1080p,Coco,0,0,0,,Master said that the spells \Nthat aren't forbidden
+Dialogue: 0,0:07:01.73,0:07:04.65,GJM_Main_1080p,Coco,0,0,0,,are the ones that bring happiness to all.
+Dialogue: 0,0:07:05.22,0:07:09.19,GJM_Main_1080p,Coco,0,0,0,,So I want to show the dragon \Nsome kinder magic.
+Dialogue: 0,0:07:09.99,0:07:14.01,GJM_Main_1080p,Coco,0,0,0,,If this works, no one has to get hurt.
+Dialogue: 0,0:07:14.71,0:07:17.95,GJM_Main_1080p,Coco,0,0,0,,Not us, and not the dragon, either!
+Dialogue: 0,0:07:21.77,0:07:23.01,GJM_Main_1080p,Tetia,0,0,0,,Good point!
+Dialogue: 0,0:07:23.01,0:07:28.84,GJM_Main_1080p,Tetia,0,0,0,,And if Agott helps us, \Nit'll probably work even better!
+Dialogue: 0,0:07:28.84,0:07:31.10,GJM_Main_1080p,Richeh,0,0,0,,You're acting like you have ideas.
+Dialogue: 0,0:07:32.86,0:07:36.27,GJM_Main_1080p,Agott,0,0,0,,Well... maybe I do.
+Dialogue: 0,0:07:36.27,0:07:38.85,GJM_Main_1080p,Tetia,0,0,0,,Then let's do this together.
+Dialogue: 0,0:07:40.34,0:07:44.11,GJM_Main_1080p,Tetia,0,0,0,,You're the best at drawing \Nseals out of all of us.
+Dialogue: 0,0:07:44.11,0:07:46.99,GJM_Main_1080p,Tetia,0,0,0,,We'll have a much better chance \Nif you're on the team.
+Dialogue: 0,0:07:57.38,0:07:58.38,GJM_Main_1080p,Agott,0,0,0,,Well...
+Dialogue: 0,0:08:00.36,0:08:01.75,GJM_Main_1080p,Agott,0,0,0,,Fine.
+Dialogue: 0,0:08:01.75,0:08:03.38,GJM_Main_1080p,Coco,0,0,0,,Yay!
+Dialogue: 0,0:08:03.80,0:08:05.21,GJM_Main_1080p,Agott,0,0,0,,Hey, watch it!
+Dialogue: 0,0:08:08.41,0:08:10.12,GJM_Main_1080p,Coco,0,0,0,,Thanks, Agott!
+Dialogue: 0,0:08:10.12,0:08:11.45,GJM_Main_1080p,Agott,0,0,0,,Forget about me!
+Dialogue: 0,0:08:11.45,0:08:13.51,GJM_Main_1080p,Agott,0,0,0,,Let's talk strategy!
+Dialogue: 0,0:08:13.51,0:08:14.60,GJM_Main_1080p,Tetia,0,0,0,,Okay!
+Dialogue: 0,0:08:17.57,0:08:20.02,GJM_Main_1080p,Agott,0,0,0,,You want to be able to lie on it, right?
+Dialogue: 0,0:08:20.02,0:08:23.80,GJM_Main_1080p,Tetia,0,0,0,,Yes, I want it to be like \Na nice, fluffy bed!
+Dialogue: 0,0:08:23.80,0:08:28.37,GJM_Main_1080p,Agott,0,0,0,,Something as fluffy as a cloud, \Nbut with proper substance...
+Dialogue: 0,0:08:28.37,0:08:30.51,GJM_Main_1080p,Richeh,0,0,0,,Something we can find here...
+Dialogue: 0,0:08:30.51,0:08:34.04,GJM_Main_1080p,Coco,0,0,0,,...and that could withstand \Na dragon's weight.
+Dialogue: 0,0:08:35.20,0:08:36.76,GJM_Main_1080p,Tetia,0,0,0,,Shredded paper!
+Dialogue: 0,0:08:36.76,0:08:39.62,GJM_Main_1080p,Agott,0,0,0,,We could tear up all four of our \NQuires and it wouldn't be enough.
+Dialogue: 0,0:08:39.62,0:08:40.28,GJM_Main_1080p,Coco,0,0,0,,Cloth!
+Dialogue: 0,0:08:40.28,0:08:41.12,GJM_Main_1080p,Richeh,0,0,0,,Hair.
+Dialogue: 0,0:08:41.12,0:08:42.53,GJM_Main_1080p,Agott,0,0,0,,Not nearly enough.
+Dialogue: 0,0:08:42.53,0:08:44.13,GJM_Main_1080p,Agott,0,0,0,,And are you willing to give those up?
+Dialogue: 0,0:08:47.21,0:08:48.41,GJM_Main_1080p,Agott,0,0,0,,Sand...
+Dialogue: 0,0:08:50.05,0:08:51.38,GJM_Main_1080p,Agott,0,0,0,,What about sand?
+Dialogue: 0,0:08:52.97,0:08:54.35,GJM_Main_1080p,Agott,0,0,0,,The Wall Breaker spell!
+Dialogue: 0,0:08:54.35,0:08:58.60,GJM_Main_1080p,Agott,0,0,0,,We can create a very fine sand \Nby busting up the walls and floors.
+Dialogue: 0,0:08:58.60,0:09:02.23,GJM_Main_1080p,Tetia,0,0,0,,Of course! Who doesn't love \Nlying on a sandy beach?!
+Dialogue: 0,0:09:02.23,0:09:04.48,GJM_Main_1080p,Tetia,0,0,0,,Smart thinking, Agott! Smartygott!
+Dialogue: 0,0:09:04.48,0:09:08.27,GJM_Main_1080p,Agott,0,0,0,,The more signs drawn to the seal, \Nthe finer the sand it will produce.
+Dialogue: 0,0:09:08.27,0:09:09.82,GJM_Main_1080p,Agott,0,0,0,,More so if the seals are smaller.
+Dialogue: 0,0:09:09.82,0:09:12.74,GJM_Main_1080p,Richeh,0,0,0,,Leave the tiny seals to Richeh!
+Dialogue: 0,0:09:13.45,0:09:14.41,GJM_Main_1080p,Coco,0,0,0,,So fast!
+Dialogue: 0,0:09:14.41,0:09:16.53,GJM_Main_1080p,Tetia,0,0,0,,That's Richeh's specialty!
+Dialogue: 0,0:09:16.53,0:09:19.97,GJM_Main_1080p,Agott,0,0,0,,Tetia, think of a spell that will \Ngather the sand in the central plaza
+Dialogue: 0,0:09:19.97,0:09:21.13,GJM_Main_1080p,Agott,0,0,0,,without packing it too hard.
+Dialogue: 0,0:09:21.13,0:09:24.60,GJM_Main_1080p,Agott,0,0,0,,I'll try to think up an enveloping spell \Nthat will keep it in place.
+Dialogue: 0,0:09:24.60,0:09:25.70,GJM_Main_1080p,Tetia,0,0,0,,You got it!
+Dialogue: 0,0:09:25.70,0:09:27.07,GJM_Main_1080p,Coco,0,0,0,,H-Hey!
+Dialogue: 0,0:09:29.03,0:09:30.65,GJM_Main_1080p,Coco,0,0,0,,What should I do?
+Dialogue: 0,0:09:30.65,0:09:32.23,GJM_Main_1080p,Agott,0,0,0,,Just stay out of it.
+Dialogue: 0,0:09:33.43,0:09:35.26,GJM_Main_1080p,Agott,0,0,0,,I've agreed to your plan,
+Dialogue: 0,0:09:35.26,0:09:38.92,GJM_Main_1080p,Agott,0,0,0,,but you're not at a skill level \Nwhere I can trust you with a spell.
+Dialogue: 0,0:09:39.39,0:09:41.74,GJM_Main_1080p,Agott,0,0,0,,The best thing you can do \Nis stay out of our way.
+Dialogue: 0,0:09:53.01,0:09:56.91,GJM_Main_1080p,Coco,0,0,0,,{\i1}How does she draw such a perfect circle?
+Dialogue: 0,0:10:14.65,0:10:17.00,GJM_Main_1080p,Coco,0,0,0,,{\i1}She draws the circle in \Nthe air a few times first,
+Dialogue: 0,0:10:17.00,0:10:19.32,GJM_Main_1080p,Coco,0,0,0,,{\i1}then starts at the point closest to her.
+Dialogue: 0,0:10:20.29,0:10:23.47,GJM_Main_1080p,Coco,0,0,0,,{\i1}Do Tetia and Richeh do it the same way?
+Dialogue: 0,0:10:30.27,0:10:33.11,GJM_Main_1080p,Coco,0,0,0,,{\i1}How have I been doing it?
+Dialogue: 0,0:10:33.56,0:10:36.59,GJM_Main_1080p,Coco,0,0,0,,{\i1}The place to start... the final shape...
+Dialogue: 0,0:10:36.59,0:10:38.80,GJM_Main_1080p,Coco,0,0,0,,{\i1}I guess I never gave much \Nthought to that stuff.
+Dialogue: 0,0:10:41.45,0:10:42.72,GJM_Main_1080p,Coco,0,0,0,,{\i1}I'm going to try it.
+Dialogue: 0,0:10:43.29,0:10:46.21,GJM_Main_1080p,Coco,0,0,0,,{\i1}Until I can do it like they can...
+Dialogue: 0,0:10:47.96,0:10:49.38,GJM_Main_1080p,Coco,0,0,0,,{\i1}I'm going to try it!
+Dialogue: 0,0:10:50.77,0:10:54.55,GJM_Main_1080p,Coco,0,0,0,,Like this... and then...
+Dialogue: 0,0:10:55.07,0:10:56.39,GJM_Main_1080p,Coco,0,0,0,,Then this...
+Dialogue: 0,0:11:09.61,0:11:10.76,GJM_Main_1080p,Richeh,0,0,0,,It's cold.
+Dialogue: 0,0:11:11.48,0:11:13.48,GJM_Main_1080p,Tetia,0,0,0,,Yeah, it's gotten pretty dark, huh?
+Dialogue: 0,0:11:13.48,0:11:14.78,GJM_Main_1080p,Tetia,0,0,0,,Should I start a fire?
+Dialogue: 0,0:11:14.78,0:11:16.21,GJM_Main_1080p,Richeh,0,0,0,,I'm out of paper.
+Dialogue: 0,0:11:16.21,0:11:17.72,GJM_Main_1080p,Tetia,0,0,0,,So am I.
+Dialogue: 0,0:11:18.67,0:11:20.61,GJM_Main_1080p,Agott,0,0,0,,It's hopeless.
+Dialogue: 0,0:11:20.61,0:11:23.22,GJM_Main_1080p,Agott,0,0,0,,A Sign of Convergence \Nwould pack it too hard.
+Dialogue: 0,0:11:23.22,0:11:25.55,GJM_Main_1080p,Tetia,0,0,0,,What if you wrap it in a membrane of air?
+Dialogue: 0,0:11:25.55,0:11:28.02,GJM_Main_1080p,Agott,0,0,0,,Too weak. It'll still fall apart.
+Dialogue: 0,0:11:28.73,0:11:31.30,GJM_Main_1080p,Richeh,0,0,0,,What about reinforcing it \Nwith fine strips of cloth?
+Dialogue: 0,0:11:31.30,0:11:33.93,GJM_Main_1080p,Agott,0,0,0,,Just wrapping it up in that \Nwon't be enough.
+Dialogue: 0,0:11:33.93,0:11:35.48,GJM_Main_1080p,Agott,0,0,0,,And it's going to get even colder, so—
+Dialogue: 0,0:11:35.48,0:11:36.51,GJM_Main_1080p,Richeh,0,0,0,,Forget it.
+Dialogue: 0,0:11:37.74,0:11:39.80,GJM_Main_1080p,Tetia,0,0,0,,There's gotta be something...
+Dialogue: 0,0:11:39.80,0:11:42.82,GJM_Main_1080p,Tetia,0,0,0,,{\an8}Need an idea... An idea...
+Dialogue: 0,0:11:41.02,0:11:42.82,GJM_Overlap_1080p,Agott,0,0,0,Overlap,{\i1}There must be a way.
+Dialogue: 0,0:11:42.82,0:11:44.61,GJM_Main_1080p,Agott,0,0,0,,{\i1}The perfect idea...
+Dialogue: 0,0:11:51.47,0:11:52.33,GJM_Main_1080p,Coco,0,0,0,,I...
+Dialogue: 0,0:11:53.10,0:11:54.24,GJM_Main_1080p,Coco,0,0,0,,I did it!
+Dialogue: 0,0:11:56.72,0:11:59.46,GJM_Main_1080p,Agott,0,0,0,,Um... why are you casting tha—
+Dialogue: 0,0:11:59.46,0:12:00.99,GJM_Main_1080p,Tetia,0,0,0,,It's stable.
+Dialogue: 0,0:12:01.71,0:12:03.14,GJM_Main_1080p,Tetia,0,0,0,,She cast a Pyreball!
+Dialogue: 0,0:12:03.14,0:12:05.03,GJM_Main_1080p,Tetia,0,0,0,,Yours used to go out right away, right?
+Dialogue: 0,0:12:05.03,0:12:07.44,GJM_Main_1080p,Tetia,0,0,0,,When did you learn to make it so good?
+Dialogue: 0,0:12:07.44,0:12:09.76,GJM_Main_1080p,Coco,0,0,0,,I've been practicing just now.
+Dialogue: 0,0:12:09.76,0:12:12.09,GJM_Main_1080p,Coco,0,0,0,,I was watching you all do your thing,
+Dialogue: 0,0:12:12.09,0:12:14.89,GJM_Main_1080p,Coco,0,0,0,,so I did it over and over until...
+Dialogue: 0,0:12:17.26,0:12:18.60,GJM_Main_1080p,Tetia,0,0,0,,That's amazing!
+Dialogue: 0,0:12:18.60,0:12:20.64,GJM_Main_1080p,Tetia,0,0,0,,Coco, you did it!
+Dialogue: 0,0:12:21.83,0:12:26.47,GJM_Main_1080p,Agott,0,0,0,,Well, anyone can learn \Nwith enough repetition...
+Dialogue: 0,0:12:27.88,0:12:30.60,GJM_Main_1080p,Agott,0,0,0,,Repetition?
+Dialogue: 0,0:12:31.35,0:12:32.86,GJM_Main_1080p,Agott,0,0,0,,Repetition! That's it!
+Dialogue: 0,0:12:40.42,0:12:41.74,GJM_Main_1080p,Agott,0,0,0,,Everyone ready?
+Dialogue: 0,0:12:42.52,0:12:44.14,GJM_Main_1080p,Tetia,0,0,0,,Ready anytime.
+Dialogue: 0,0:12:45.69,0:12:47.29,GJM_Main_1080p,Agott,0,0,0,,All right, let's go!
+Dialogue: 0,0:12:56.30,0:12:57.27,GJM_Main_1080p,Tetia,0,0,0,,Coco!
+Dialogue: 0,0:12:58.31,0:12:59.22,GJM_Main_1080p,Coco,0,0,0,,Thanks!
+Dialogue: 0,0:12:59.78,0:13:01.80,GJM_Main_1080p,Agott,0,0,0,,It's definitely bigger than before.
+Dialogue: 0,0:13:02.08,0:13:03.97,GJM_Main_1080p,Agott,0,0,0,,We have to finish this quickly.
+Dialogue: 0,0:13:04.37,0:13:05.81,GJM_Main_1080p,Agott,0,0,0,,Richeh, go on ahead!
+Dialogue: 0,0:13:05.81,0:13:06.48,GJM_Main_1080p,Richeh,0,0,0,,Right.
+Dialogue: 0,0:13:43.13,0:13:44.17,GJM_Main_1080p,Tetia,0,0,0,,Done!
+Dialogue: 0,0:13:44.17,0:13:45.18,GJM_Main_1080p,Tetia,0,0,0,,Coco!
+Dialogue: 0,0:13:45.18,0:13:45.97,GJM_Main_1080p,Coco,0,0,0,,Right!
+Dialogue: 0,0:13:49.29,0:13:51.68,GJM_Main_1080p,Agott,0,0,0,,Make the sign to close the rings.
+Dialogue: 0,0:13:51.68,0:13:52.48,GJM_Main_1080p,Richeh,0,0,0,,Right.
+Dialogue: 0,0:13:53.52,0:13:54.48,GJM_Main_1080p,Richeh,0,0,0,,Three...
+Dialogue: 0,0:13:54.48,0:13:55.73,GJM_Main_1080p,Coco,0,0,0,,Two...
+Dialogue: 0,0:13:55.99,0:13:56.98,GJM_Main_1080p,Coco/Richeh,0,0,0,,One...
+Dialogue: 0,0:14:04.93,0:14:06.09,GJM_Main_1080p,Agott,0,0,0,,Richeh, next station!
+Dialogue: 0,0:14:06.09,0:14:06.99,GJM_Main_1080p,Richeh,0,0,0,,Right.
+Dialogue: 0,0:14:31.35,0:14:32.32,GJM_Main_1080p,Coco,0,0,0,,It noticed!
+Dialogue: 0,0:14:32.32,0:14:33.85,GJM_Main_1080p,Tetia,0,0,0,,We need to meet up!
+Dialogue: 0,0:14:33.85,0:14:35.24,GJM_Main_1080p,Agott,0,0,0,,Did you finish your rings?
+Dialogue: 0,0:14:35.24,0:14:36.86,GJM_Main_1080p,Richeh,0,0,0,,All activated.
+Dialogue: 0,0:14:36.86,0:14:38.11,GJM_Main_1080p,Agott,0,0,0,,Great.
+Dialogue: 0,0:14:38.11,0:14:39.60,GJM_Main_1080p,Tetia,0,0,0,,Repetition?
+Dialogue: 0,0:14:39.60,0:14:40.82,GJM_Main_1080p,Agott,0,0,0,,{\i1}Yes.
+Dialogue: 0,0:14:40.82,0:14:43.35,GJM_Main_1080p,Agott,0,0,0,,{\i1}To keep the spell from falling apart,
+Dialogue: 0,0:14:43.35,0:14:47.74,GJM_Main_1080p,Agott,0,0,0,,{\i1}we'll wrap it in repetition magic that \Nconstantly returns it to its initial form.
+Dialogue: 0,0:14:48.03,0:14:49.12,GJM_Main_1080p,Agott,0,0,0,,{\i1}In other words,
+Dialogue: 0,0:14:49.12,0:14:54.00,GJM_Main_1080p,Agott,0,0,0,,{\i1}envelop the Wall Breaker and Billow Cluster \Ncombination in a Repetition Spell
+Dialogue: 0,0:14:51.99,0:14:53.00,GJM_Overlap_1080p,Tetia,0,0,0,Overlap,{\an8}Coco!
+Dialogue: 0,0:14:54.00,0:14:56.17,GJM_Main_1080p,Agott,0,0,0,,{\i1}to create a cloud of sand.
+Dialogue: 0,0:14:56.17,0:15:00.17,GJM_Main_1080p,Agott,0,0,0,,{\i1}Given the size of the dragon, \Nwe'll need five, I think.
+Dialogue: 0,0:14:56.52,0:14:57.70,GJM_Overlap_1080p,Agott,0,0,0,Overlap,{\an8}Current status?
+Dialogue: 0,0:14:57.70,0:15:00.17,GJM_Overlap_1080p,Tetia,0,0,0,Overlap,{\an8}It's wary, but almost there...
+Dialogue: 0,0:15:00.17,0:15:05.18,GJM_Main_1080p,Agott,0,0,0,,{\i1}If we can sync the positioning and \Ntiming right to combine five into one...
+Dialogue: 0,0:15:05.18,0:15:06.90,GJM_Main_1080p,Agott,0,0,0,,{\i1}Even if it sinks with the beast's weight,
+Dialogue: 0,0:15:06.90,0:15:09.96,GJM_Main_1080p,Agott,0,0,0,,{\i1}the sand cloud will keep trying \Nto return to its original shape,
+Dialogue: 0,0:15:09.96,0:15:12.96,GJM_Main_1080p,Agott,0,0,0,,{\i1}and maintain its nice fluffiness.
+Dialogue: 0,0:15:13.93,0:15:15.31,GJM_Main_1080p,Agott,0,0,0,,I call it...
+Dialogue: 0,0:15:14.31,0:15:15.31,GJM_Overlap_1080p,Tetia,0,0,0,Overlap,I call it...
+Dialogue: 0,0:15:24.01,0:15:26.68,GJM_Main_1080p,Coco/Tetia,0,0,0,,The Dragon Disabler Cushion!
+Dialogue: 0,0:15:27.70,0:15:29.90,GJM_Main_1080p,Agott,0,0,0,,Wrong. It's the Serpent's Bed of Sand.
+Dialogue: 0,0:15:29.90,0:15:31.32,GJM_Main_1080p,Tetia,0,0,0,,That's much cooler!
+Dialogue: 0,0:15:31.32,0:15:32.32,GJM_Main_1080p,Tetia,0,0,0,,Smartygott!
+Dialogue: 0,0:15:32.32,0:15:33.38,GJM_Main_1080p,Richeh,0,0,0,,Smartygott.
+Dialogue: 0,0:15:33.38,0:15:34.84,GJM_Main_1080p,Agott,0,0,0,,Enough nonsense.
+Dialogue: 0,0:15:34.84,0:15:36.83,GJM_Main_1080p,Agott,0,0,0,,Now's our chance to get past it!
+Dialogue: 0,0:15:40.97,0:15:42.09,GJM_Main_1080p,Coco,0,0,0,,Tetia?
+Dialogue: 0,0:15:42.54,0:15:43.92,GJM_Main_1080p,Coco,0,0,0,,What is it?
+Dialogue: 0,0:15:43.92,0:15:45.97,GJM_Main_1080p,Tetia,0,0,0,,Oh, nothing.
+Dialogue: 0,0:15:46.64,0:15:48.59,GJM_Main_1080p,Tetia,0,0,0,,I just couldn't help but look.
+Dialogue: 0,0:15:49.90,0:15:53.72,GJM_Main_1080p,Tetia,0,0,0,,That dragon looks really happy, huh?
+Dialogue: 0,0:15:54.54,0:16:00.11,GJM_Main_1080p,Tetia,0,0,0,,I think this is the first time I've ever \Nmade someone happy with a spell.
+Dialogue: 0,0:16:04.02,0:16:07.06,GJM_Main_1080p,Tetia,0,0,0,,Who'd have thought \Nit'd bring you such joy?
+Dialogue: 0,0:16:15.25,0:16:16.29,GJM_Main_1080p,Agott,0,0,0,,Well?
+Dialogue: 0,0:16:16.29,0:16:19.10,GJM_Main_1080p,Coco,0,0,0,,Yeah, I think this is it.
+Dialogue: 0,0:16:19.10,0:16:20.86,GJM_Main_1080p,Tetia,0,0,0,,What kind of spell is it?
+Dialogue: 0,0:16:20.86,0:16:22.68,GJM_Main_1080p,Richeh,0,0,0,,I've never seen it before.
+Dialogue: 0,0:16:23.75,0:16:26.26,GJM_Main_1080p,Agott,0,0,0,,Master might know, I suppose.
+Dialogue: 0,0:16:31.31,0:16:32.64,GJM_Main_1080p,Qifrey,0,0,0,,They're in here?
+Dialogue: 0,0:16:35.02,0:16:36.65,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}I don't sense anyone.
+Dialogue: 0,0:16:36.65,0:16:38.33,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}Did they move on already?
+Dialogue: 0,0:16:38.33,0:16:39.39,GJM_Main_1080p,Tartah,0,0,0,,Huh?
+Dialogue: 0,0:16:39.39,0:16:43.22,GJM_Main_1080p,Tartah,0,0,0,,I thought this alley was paved...
+Dialogue: 0,0:16:43.22,0:16:45.65,GJM_Main_1080p,Tartah,0,0,0,,Maybe they removed the \Nflagstones at some point.
+Dialogue: 0,0:16:46.80,0:16:49.69,GJM_Main_1080p,Qifrey,0,0,0,,{\i1}Brushbuddies are drawn to \Nthe smell of Conjuring Ink.
+Dialogue: 0,0:16:51.00,0:16:51.70,GJM_Main_1080p,Qifrey,0,0,0,,Is this—
+Dialogue: 0,0:16:55.36,0:16:56.62,GJM_Main_1080p,Qifrey,0,0,0,,Get back!
+Dialogue: 0,0:17:06.77,0:17:10.90,GJM_Main_1080p,Agott,0,0,0,,Why didn't you think \Nbefore breaking the seal?!
+Dialogue: 0,0:17:10.90,0:17:13.53,GJM_Main_1080p,Tetia,0,0,0,,It's what brought us here, isn't it?!
+Dialogue: 0,0:17:13.53,0:17:15.18,GJM_Main_1080p,Coco,0,0,0,,Look up, everyone!
+Dialogue: 0,0:17:15.18,0:17:16.70,GJM_Main_1080p,Coco,0,0,0,,I can see the sky!
+Dialogue: 0,0:17:17.18,0:17:19.66,GJM_Main_1080p,Coco,0,0,0,,Is that the way out?!
+Dialogue: 0,0:17:19.66,0:17:20.67,GJM_Main_1080p,Agott,0,0,0,,Get down!
+Dialogue: 0,0:17:27.42,0:17:28.57,GJM_Main_1080p,Coco,0,0,0,,Ago—
+Dialogue: 0,0:17:30.57,0:17:32.28,GJM_Main_1080p,Agott,0,0,0,,{\i1}What do I do?
+Dialogue: 0,0:17:32.28,0:17:36.34,GJM_Main_1080p,Agott,0,0,0,,{\i1}I'm not wearing my Sylph Shoes...
+Dialogue: 0,0:17:48.94,0:17:50.14,GJM_Main_1080p,Agott,0,0,0,,Master?
+Dialogue: 0,0:17:50.14,0:17:52.43,GJM_Main_1080p,Qifrey,0,0,0,,A dragon, is it?
+Dialogue: 0,0:17:52.43,0:17:53.89,GJM_Main_1080p,Agott,0,0,0,,Master, I—
+Dialogue: 0,0:17:53.89,0:17:55.76,GJM_Main_1080p,Qifrey,0,0,0,,It's coming. Hang on.
+Dialogue: 0,0:18:04.85,0:18:06.55,GJM_Main_1080p,Qifrey,0,0,0,,I need my hands free. Hold on tight!
+Dialogue: 0,0:18:07.36,0:18:08.35,GJM_Main_1080p,Agott,0,0,0,,Yes, sir!
+Dialogue: 0,0:19:06.37,0:19:08.15,GJM_Main_1080p,Qifrey,0,0,0,,You're safe now.
+Dialogue: 0,0:19:08.15,0:19:10.13,GJM_Main_1080p,Qifrey,0,0,0,,I think it's unconscious.
+Dialogue: 0,0:19:11.39,0:19:12.49,GJM_Main_1080p,Qifrey,0,0,0,,Agott?
+Dialogue: 0,0:19:13.10,0:19:14.45,GJM_Main_1080p,Agott,0,0,0,,R-Right...
+Dialogue: 0,0:19:14.45,0:19:16.38,GJM_Main_1080p,Tetia,0,0,0,,Master!
+Dialogue: 0,0:19:16.38,0:19:18.38,GJM_Main_1080p,Qifrey,0,0,0,,Tetia! Richeh!
+Dialogue: 0,0:19:17.10,0:19:19.61,GJM_Overlap_1080p,Tetia,0,0,0,Overlap,{\an8}I was so scared!
+Dialogue: 0,0:19:18.38,0:19:20.76,GJM_Main_1080p,Richeh,0,0,0,,How did you get here, sir?
+Dialogue: 0,0:19:20.76,0:19:24.62,GJM_Main_1080p,Qifrey,0,0,0,,I was searching for you when \Nthe space opened up around me...
+Dialogue: 0,0:19:27.62,0:19:28.73,GJM_Main_1080p,Qifrey,0,0,0,,Where's Coco?
+Dialogue: 0,0:19:34.52,0:19:36.15,GJM_Main_1080p,Iguin,0,0,0,,Hello, Coco.
+Dialogue: 0,0:19:36.98,0:19:42.79,GJM_Main_1080p,Iguin,0,0,0,,I've waited so long for the \Nseeds I planted to sprout.
+Dialogue: 0,0:19:43.91,0:19:47.32,GJM_Main_1080p,Iguin,0,0,0,,How did you like the \Nassignment I gave you?
+Dialogue: 0,0:19:47.75,0:19:50.49,GJM_Main_1080p,Iguin,0,0,0,,Did it aid your growth?
+Dialogue: 0,0:19:50.93,0:19:54.67,GJM_Main_1080p,Iguin,0,0,0,,I know. I'll give you a gift.
+Dialogue: 0,0:19:55.30,0:20:00.18,GJM_Main_1080p,Iguin,0,0,0,,I'll teach you things that Qifrey can't.
+Dialogue: 0,0:20:00.67,0:20:02.43,GJM_Main_1080p,Iguin,0,0,0,,And when the day comes...
+Dialogue: 0,0:20:03.04,0:20:06.78,GJM_Main_1080p,Iguin,0,0,0,,Yes, what a day that will be!
+Dialogue: 0,0:20:10.86,0:20:11.87,GJM_Main_1080p,Tetia,0,0,0,,Coco!
+Dialogue: 0,0:20:12.18,0:20:13.43,GJM_Main_1080p,Tetia,0,0,0,,Coco!
+Dialogue: 0,0:20:14.44,0:20:15.77,GJM_Main_1080p,Tetia,0,0,0,,Coco!
+Dialogue: 0,0:20:18.70,0:20:20.66,GJM_Main_1080p,Coco,0,0,0,,Master Qifrey...
+Dialogue: 0,0:20:21.30,0:20:22.70,GJM_Main_1080p,Coco,0,0,0,,Everyone...
+Dialogue: 0,0:20:26.29,0:20:27.13,GJM_Main_1080p,Coco,0,0,0,,Is Agott—
+Dialogue: 0,0:20:27.13,0:20:28.11,GJM_Main_1080p,Agott,0,0,0,,I'm right here.
+Dialogue: 0,0:20:28.64,0:20:30.74,GJM_Main_1080p,Agott,0,0,0,,Thank you for this, Tartah.
+Dialogue: 0,0:20:31.29,0:20:32.73,GJM_Main_1080p,Tartah,0,0,0,,{\an8}Sure.
+Dialogue: 0,0:20:32.73,0:20:35.95,GJM_Main_1080p,Tartah,0,0,0,,{\an8}I'll see if I can get Grandpa to come by.
+Dialogue: 0,0:20:34.81,0:20:35.95,GJM_Overlap_1080p,Coco,0,0,0,Overlap,Thank goodness.
+Dialogue: 0,0:20:36.93,0:20:39.06,GJM_Main_1080p,Coco,0,0,0,,Wait, is this Kalhn?
+Dialogue: 0,0:20:39.06,0:20:42.35,GJM_Main_1080p,Tetia,0,0,0,,Yes, we all made it back!
+Dialogue: 0,0:20:42.35,0:20:44.06,GJM_Main_1080p,Qifrey,0,0,0,,Thank goodness\NI was able to find you.
+Dialogue: 0,0:20:44.06,0:20:46.52,GJM_Main_1080p,Qifrey,0,0,0,,You were unconscious on the tower stairs.
+Dialogue: 0,0:20:46.52,0:20:48.02,GJM_Main_1080p,Coco,0,0,0,,The stairs?
+Dialogue: 0,0:20:49.75,0:20:52.31,GJM_Main_1080p,Qifrey,0,0,0,,Wait... did the Brimmed Caps \Ndo something to you?
+Dialogue: 0,0:20:52.31,0:20:56.02,GJM_Main_1080p,Coco,0,0,0,,No! I'm just a little spaced out.
+Dialogue: 0,0:20:56.02,0:20:57.32,GJM_Main_1080p,Coco,0,0,0,,Um...
+Dialogue: 0,0:21:03.11,0:21:04.29,GJM_Main_1080p,Tetia,0,0,0,,Coco?
+Dialogue: 0,0:21:05.52,0:21:06.95,GJM_Main_1080p,Tetia,0,0,0,,Are you okay?
+Dialogue: 0,0:21:08.51,0:21:11.66,GJM_Main_1080p,Coco,0,0,0,,Yeah... I'm fine. I'm fi—
+Dialogue: 0,0:21:24.55,0:21:27.00,GJM_Main_1080p,Coco,0,0,0,,I'm sorry.
+Dialogue: 0,0:21:29.65,0:21:33.22,GJM_Main_1080p,Coco,0,0,0,,I got you all mixed up in this.
+Dialogue: 0,0:21:34.74,0:21:36.13,GJM_Main_1080p,Coco,0,0,0,,I'm really...
+Dialogue: 0,0:21:37.61,0:21:39.11,GJM_Main_1080p,Coco,0,0,0,,really sorry.
+Dialogue: 0,0:21:43.59,0:21:47.74,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}Tetia told me what happened in there.
+Dialogue: 0,0:21:48.33,0:21:51.25,GJM_Main_1080p,Qifrey,0,0,0,,And what you all did there.
+Dialogue: 0,0:21:53.99,0:21:57.34,GJM_Main_1080p,Qifrey,0,0,0,,It sounds like you saved them all.
+Dialogue: 0,0:21:58.81,0:22:03.47,GJM_Main_1080p,Qifrey,0,0,0,,Ideas are as important to \Nspellcasting as penmanship.
+Dialogue: 0,0:22:03.47,0:22:05.78,GJM_Main_1080p,Qifrey,0,0,0,,Let's work hard to nurture that talent.
+Dialogue: 0,0:22:19.48,0:22:20.63,GJM_Main_1080p,Coco,0,0,0,,Okay!
+Dialogue: 0,0:22:21.88,0:22:24.99,GJM_Main_1080p,Tetia,0,0,0,,{\an8}Coco! I'm so glad you're safe!
+Dialogue: 0,0:22:24.99,0:22:26.95,GJM_Main_1080p,Coco,0,0,0,,{\an8}I'm sorry I worried you!
+Dialogue: 0,0:22:26.95,0:22:28.41,GJM_Main_1080p,Coco,0,0,0,,{\an8}I'm sorry, Richeh, and Agott...
+Dialogue: 0,0:22:28.41,0:22:29.99,GJM_Main_1080p,Agott,0,0,0,,{\an8}I wasn't worried.
+Dialogue: 0,0:22:29.99,0:22:34.40,GJM_Overlap_1080p,Tetia,0,0,0,,{\an8}She was totally worried. \NI saw your cloak—
+Dialogue: 0,0:22:29.99,0:22:32.47,GJM_Main_1080p,Nolnoa,0,0,0,Overlap,They're not just safe, they're thriving!
+Dialogue: 0,0:22:32.47,0:22:34.40,GJM_Main_1080p,Qifrey,0,0,0,Overlap,Yes, thanks to all your help.
+Dialogue: 0,0:22:34.75,0:22:36.69,GJM_Main_1080p,Nolnoa,0,0,0,,It's awfully late.
+Dialogue: 0,0:22:36.69,0:22:39.05,GJM_Main_1080p,Nolnoa,0,0,0,,Why not get a room at an inn—
+Dialogue: 0,0:22:39.05,0:22:40.00,GJM_Main_1080p,Qifrey,0,0,0,,Mr. Nolnoa.
+Dialogue: 0,0:22:40.47,0:22:42.65,GJM_Main_1080p,Qifrey,0,0,0,,I have a serious favor to ask you.
+Dialogue: 0,0:22:42.65,0:22:43.71,GJM_Main_1080p,Nolnoa,0,0,0,,Eh?
+Dialogue: 0,0:22:44.38,0:22:47.31,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}There's a Casting Seal \Ndrawn on the back of this.
+Dialogue: 0,0:22:47.31,0:22:50.86,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}I need to know what's in the ink.
+Dialogue: 0,0:22:50.86,0:22:52.83,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}Will you look into it for me?
+Dialogue: 0,0:22:52.83,0:22:55.55,GJM_Main_1080p,Nolnoa,0,0,0,,{\an8}Let's see. What's in the ink?
+Dialogue: 0,0:22:55.55,0:22:59.77,GJM_Main_1080p,Qifrey,0,0,0,,{\an8}And please don't tell the \NKnights Moralis about this.
+Dialogue: 0,0:23:00.40,0:23:04.90,GJM_Main_1080p,Nolnoa,0,0,0,,B-But we have an obligation to \Nreport Forbidden Magic sightings—
+Dialogue: 0,0:23:06.74,0:23:08.91,GJM_Main_1080p,Qifrey,0,0,0,,Do not tell anyone of this.
+Dialogue: 0,0:23:09.40,0:23:10.72,GJM_Main_1080p,Qifrey,0,0,0,,Not {\i1}anyone{\i0}.
+Dialogue: 0,0:23:21.43,0:23:24.93,GJM_Main_1080p,Nolnoa,0,0,0,,Honestly. I wonder \Nwhat's happening here...
+Dialogue: 0,0:23:25.93,0:23:27.56,GJM_Main_1080p,Agott,0,0,0,,{\an8}Isn't that Coco's?
+Dialogue: 0,0:23:27.56,0:23:32.66,GJM_Main_1080p,Nolnoa,0,0,0,,Or perhaps... what's about to happen?
+Dialogue: 0,0:23:27.56,0:23:31.18,GJM_Overlap_1080p,Coco,0,0,0,Overlap,{\an8}Whoops! I forgot.
