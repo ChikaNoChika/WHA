@@ -33,13 +33,13 @@ def make_mux(x):
     else:
         signssongs = (
             dialogue.merge(ts)
-            .merge(op, sync="Opening", sync2="OP", use_actor_field=False)
+            .merge(op, sync="Opening", sync2="OP", use_actor_field=False) # TODO: This is broken
             .merge(ed, sync="Ending", sync2="ED", use_actor_field=False)
         )
         full = dialogue.merge(signssongs)
         dubtitles = SubFile.from_srt(
             f"./{setup.episode}/WHA - {setup.episode} - Dubtitles.srt"
-        ).merge(signssongs)
+        ).merge(signssongs) # TODO: This is broken
 
     chapters = Chapters.from_sub(full)
 
